@@ -1,0 +1,5033 @@
+fileFormatVersion: 2
+guid: e305a13b773285745ae4d5837a492beb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2009841120776313706
+    second: Viking-Sheet_0
+  - first:
+      213: 1613983748006935678
+    second: Viking-Sheet_1
+  - first:
+      213: -8720377130653400001
+    second: Viking-Sheet_2
+  - first:
+      213: -4309096999709058058
+    second: Viking-Sheet_3
+  - first:
+      213: 8184796844771152989
+    second: Viking-Sheet_4
+  - first:
+      213: 8197553840191844918
+    second: Viking-Sheet_5
+  - first:
+      213: -2751564386014381699
+    second: Viking-Sheet_6
+  - first:
+      213: -8904511179098123856
+    second: Viking-Sheet_7
+  - first:
+      213: 5658776645485162056
+    second: Viking-Sheet_8
+  - first:
+      213: -5162866863606571092
+    second: Viking-Sheet_9
+  - first:
+      213: 4760995518723425305
+    second: Viking-Sheet_10
+  - first:
+      213: -3921415108567564372
+    second: Viking-Sheet_11
+  - first:
+      213: 8480410291229630268
+    second: Viking-Sheet_12
+  - first:
+      213: 5046468292055446034
+    second: Viking-Sheet_13
+  - first:
+      213: 6829943031292476689
+    second: Viking-Sheet_14
+  - first:
+      213: -2488352162614764126
+    second: Viking-Sheet_15
+  - first:
+      213: 1645585308399642251
+    second: Viking-Sheet_16
+  - first:
+      213: -3493963450818859659
+    second: Viking-Sheet_17
+  - first:
+      213: 6946866731318459207
+    second: Viking-Sheet_18
+  - first:
+      213: 5565854917896494584
+    second: Viking-Sheet_19
+  - first:
+      213: 152075323110784278
+    second: Viking-Sheet_20
+  - first:
+      213: -8427273922898048223
+    second: Viking-Sheet_21
+  - first:
+      213: 1616214953549053909
+    second: Viking-Sheet_22
+  - first:
+      213: 1332908281727033721
+    second: Viking-Sheet_23
+  - first:
+      213: -7947156795265087366
+    second: Viking-Sheet_24
+  - first:
+      213: -6337956972832317589
+    second: Viking-Sheet_25
+  - first:
+      213: -2378383147403848900
+    second: Viking-Sheet_26
+  - first:
+      213: -6360616040967985866
+    second: Viking-Sheet_27
+  - first:
+      213: -3689257732543726046
+    second: Viking-Sheet_28
+  - first:
+      213: -5240854801390970648
+    second: Viking-Sheet_29
+  - first:
+      213: 6974220415945647881
+    second: Viking-Sheet_30
+  - first:
+      213: 6032237880469736438
+    second: Viking-Sheet_31
+  - first:
+      213: 4686958815870220957
+    second: Viking-Sheet_32
+  - first:
+      213: -8927901962686321670
+    second: Viking-Sheet_33
+  - first:
+      213: -2384765975100930627
+    second: Viking-Sheet_34
+  - first:
+      213: -7576783671577520798
+    second: Viking-Sheet_35
+  - first:
+      213: 439789616987266518
+    second: Viking-Sheet_36
+  - first:
+      213: 5621340378568932518
+    second: Viking-Sheet_37
+  - first:
+      213: 5327310987826445787
+    second: Viking-Sheet_38
+  - first:
+      213: -4730614935742187050
+    second: Viking-Sheet_39
+  - first:
+      213: -6795273466821430157
+    second: Viking-Sheet_40
+  - first:
+      213: -6599505357820308604
+    second: Viking-Sheet_41
+  - first:
+      213: 7799744282370368417
+    second: Viking-Sheet_42
+  - first:
+      213: 7729216122337920705
+    second: Viking-Sheet_43
+  - first:
+      213: 362574542751341938
+    second: Viking-Sheet_44
+  - first:
+      213: -5593459594968005628
+    second: Viking-Sheet_45
+  - first:
+      213: -7457629351057488257
+    second: Viking-Sheet_46
+  - first:
+      213: 6149407549306122927
+    second: Viking-Sheet_47
+  - first:
+      213: 4635210296920547261
+    second: Viking-Sheet_48
+  - first:
+      213: 2374865117426007378
+    second: Viking-Sheet_49
+  - first:
+      213: 6176997185586634506
+    second: Viking-Sheet_50
+  - first:
+      213: 7973072152986784725
+    second: Viking-Sheet_51
+  - first:
+      213: 708569575809562613
+    second: Viking-Sheet_52
+  - first:
+      213: 4961170168770648331
+    second: Viking-Sheet_53
+  - first:
+      213: -7093067767053013422
+    second: Viking-Sheet_54
+  - first:
+      213: 3929740070383632649
+    second: Viking-Sheet_55
+  - first:
+      213: -8906118137281943943
+    second: Viking-Sheet_56
+  - first:
+      213: 5213888560121038373
+    second: Viking-Sheet_57
+  - first:
+      213: 6496167481313270576
+    second: Viking-Sheet_58
+  - first:
+      213: -7807940959396306960
+    second: Viking-Sheet_59
+  - first:
+      213: 495728042636876931
+    second: Viking-Sheet_60
+  - first:
+      213: -1279465671271835690
+    second: Viking-Sheet_61
+  - first:
+      213: -3648189487719466977
+    second: Viking-Sheet_62
+  - first:
+      213: -4699251880934312025
+    second: Viking-Sheet_63
+  - first:
+      213: -233443887130201742
+    second: Viking-Sheet_64
+  - first:
+      213: -4041221702977834954
+    second: Viking-Sheet_65
+  - first:
+      213: 8905524046937364513
+    second: Viking-Sheet_66
+  - first:
+      213: 7951529565397149166
+    second: Viking-Sheet_67
+  - first:
+      213: 3693054823985994080
+    second: Viking-Sheet_68
+  - first:
+      213: -1665990993381539798
+    second: Viking-Sheet_69
+  - first:
+      213: 3037150175978492026
+    second: Viking-Sheet_70
+  - first:
+      213: -787243680028413829
+    second: Viking-Sheet_71
+  - first:
+      213: -864579983411352189
+    second: Viking-Sheet_72
+  - first:
+      213: -6121837564259151289
+    second: Viking-Sheet_73
+  - first:
+      213: 8982068234297409697
+    second: Viking-Sheet_74
+  - first:
+      213: 5782908313719677838
+    second: Viking-Sheet_75
+  - first:
+      213: -1358100796399759768
+    second: Viking-Sheet_76
+  - first:
+      213: -5356467790743813834
+    second: Viking-Sheet_77
+  - first:
+      213: -3476100200160166437
+    second: Viking-Sheet_78
+  - first:
+      213: -5932661527203533560
+    second: Viking-Sheet_79
+  - first:
+      213: 860865850207015171
+    second: Viking-Sheet_80
+  - first:
+      213: 8313912524449409314
+    second: Viking-Sheet_81
+  - first:
+      213: -1506238320065603389
+    second: Viking-Sheet_82
+  - first:
+      213: -6828978332237951844
+    second: Viking-Sheet_83
+  - first:
+      213: -5353115628366860602
+    second: Viking-Sheet_84
+  - first:
+      213: -1815640000171191925
+    second: Viking-Sheet_85
+  - first:
+      213: -8975361935204879366
+    second: Viking-Sheet_86
+  - first:
+      213: -1752569742730496729
+    second: Viking-Sheet_87
+  - first:
+      213: -4285260645667724762
+    second: Viking-Sheet_88
+  - first:
+      213: 1954305610291501838
+    second: Viking-Sheet_89
+  - first:
+      213: -7845395955922643502
+    second: Viking-Sheet_90
+  - first:
+      213: -3901197604328313653
+    second: Viking-Sheet_91
+  - first:
+      213: -87721230884781979
+    second: Viking-Sheet_92
+  - first:
+      213: -4981091407954869787
+    second: Viking-Sheet_93
+  - first:
+      213: -1112966588405490367
+    second: Viking-Sheet_94
+  - first:
+      213: -4807535704071687174
+    second: Viking-Sheet_95
+  - first:
+      213: 3892755177023942103
+    second: Viking-Sheet_96
+  - first:
+      213: -2459510695007982214
+    second: Viking-Sheet_97
+  - first:
+      213: -2696430202199130174
+    second: Viking-Sheet_98
+  - first:
+      213: 973534717488027227
+    second: Viking-Sheet_99
+  - first:
+      213: -6678376504016170968
+    second: Viking-Sheet_100
+  - first:
+      213: -7766416792963236726
+    second: Viking-Sheet_101
+  - first:
+      213: -1280761194998858258
+    second: Viking-Sheet_102
+  - first:
+      213: -7023209257035503297
+    second: Viking-Sheet_103
+  - first:
+      213: 4110221207544429143
+    second: Viking-Sheet_104
+  - first:
+      213: -9006656187706069551
+    second: Viking-Sheet_105
+  - first:
+      213: -1832543014959980931
+    second: Viking-Sheet_106
+  - first:
+      213: -132638196045147370
+    second: Viking-Sheet_107
+  - first:
+      213: -7196030257732087060
+    second: Viking-Sheet_108
+  - first:
+      213: 6697178362830562394
+    second: Viking-Sheet_109
+  - first:
+      213: -6038978803118996292
+    second: Viking-Sheet_110
+  - first:
+      213: 1890699478121647533
+    second: Viking-Sheet_111
+  - first:
+      213: 2455511835426337420
+    second: Viking-Sheet_112
+  - first:
+      213: 6960881173312762408
+    second: Viking-Sheet_113
+  - first:
+      213: 3973305106218245947
+    second: Viking-Sheet_114
+  - first:
+      213: -3074801868606494588
+    second: Viking-Sheet_115
+  - first:
+      213: -8140398138644216429
+    second: Viking-Sheet_116
+  - first:
+      213: 3892683068420721571
+    second: Viking-Sheet_117
+  - first:
+      213: 7946836976173607062
+    second: Viking-Sheet_118
+  - first:
+      213: -9000049851693002371
+    second: Viking-Sheet_119
+  - first:
+      213: 3197486042715159098
+    second: Viking-Sheet_120
+  - first:
+      213: -1859363360391410381
+    second: Viking-Sheet_121
+  - first:
+      213: -6974338885311886295
+    second: Viking-Sheet_122
+  - first:
+      213: -1367335698957080952
+    second: Viking-Sheet_123
+  - first:
+      213: -5578252380007926597
+    second: Viking-Sheet_124
+  - first:
+      213: -2564235791611122226
+    second: Viking-Sheet_125
+  - first:
+      213: 8567365162656051163
+    second: Viking-Sheet_126
+  - first:
+      213: 2051016412219961280
+    second: Viking-Sheet_127
+  - first:
+      213: -8460169090693855083
+    second: Viking-Sheet_128
+  - first:
+      213: 2114320163876609778
+    second: Viking-Sheet_129
+  - first:
+      213: 6376037646849423258
+    second: Viking-Sheet_130
+  - first:
+      213: 7735084278372241449
+    second: Viking-Sheet_131
+  - first:
+      213: -2920272473918473037
+    second: Viking-Sheet_132
+  - first:
+      213: 7071963084626666159
+    second: Viking-Sheet_133
+  - first:
+      213: 9005054958358488961
+    second: Viking-Sheet_134
+  - first:
+      213: 2328522318224929858
+    second: Viking-Sheet_135
+  - first:
+      213: -4227295383483280261
+    second: Viking-Sheet_136
+  - first:
+      213: 4357259090150372175
+    second: Viking-Sheet_137
+  - first:
+      213: 2311995941987415841
+    second: Viking-Sheet_138
+  - first:
+      213: 945693157891532074
+    second: Viking-Sheet_139
+  - first:
+      213: 8808761033755673276
+    second: Viking-Sheet_140
+  - first:
+      213: 3724903852712974476
+    second: Viking-Sheet_141
+  - first:
+      213: 7964543021803861044
+    second: Viking-Sheet_142
+  - first:
+      213: 404261616950676036
+    second: Viking-Sheet_143
+  - first:
+      213: 954110688152177076
+    second: Viking-Sheet_144
+  - first:
+      213: 4241833567608585597
+    second: Viking-Sheet_145
+  - first:
+      213: -77996489003047010
+    second: Viking-Sheet_146
+  - first:
+      213: -9151107019399271762
+    second: Viking-Sheet_147
+  - first:
+      213: 5099772408772155406
+    second: Viking-Sheet_148
+  - first:
+      213: 5726549013868136540
+    second: Viking-Sheet_149
+  - first:
+      213: -7754675142804166965
+    second: Viking-Sheet_150
+  - first:
+      213: 7405366206956936613
+    second: Viking-Sheet_151
+  - first:
+      213: -4953367729871035845
+    second: Viking-Sheet_152
+  - first:
+      213: -7990925542964800713
+    second: Viking-Sheet_153
+  - first:
+      213: -8665579908578451831
+    second: Viking-Sheet_154
+  - first:
+      213: 2465619831867396050
+    second: Viking-Sheet_155
+  - first:
+      213: -966096752733803892
+    second: Viking-Sheet_156
+  - first:
+      213: -7613835841193764125
+    second: Viking-Sheet_157
+  - first:
+      213: 4604414228289963966
+    second: Viking-Sheet_158
+  - first:
+      213: -7034500999158722194
+    second: Viking-Sheet_159
+  - first:
+      213: 4669863259457467953
+    second: Viking-Sheet_160
+  - first:
+      213: -8647395261987989656
+    second: Viking-Sheet_161
+  - first:
+      213: -4990252992116441698
+    second: Viking-Sheet_162
+  - first:
+      213: -5821456006860541068
+    second: Viking-Sheet_163
+  - first:
+      213: 1190250004055963879
+    second: Viking-Sheet_164
+  - first:
+      213: -279024478213348045
+    second: Viking-Sheet_165
+  - first:
+      213: 5239208817283149993
+    second: Viking-Sheet_166
+  - first:
+      213: 8807399124976721189
+    second: Viking-Sheet_167
+  - first:
+      213: -7766786979471320006
+    second: Viking-Sheet_168
+  - first:
+      213: 7658369184550160459
+    second: Viking-Sheet_169
+  - first:
+      213: -7341077308708968420
+    second: Viking-Sheet_170
+  - first:
+      213: -1153678176082745688
+    second: Viking-Sheet_171
+  - first:
+      213: -2090972848500096590
+    second: Viking-Sheet_172
+  - first:
+      213: 7324509707799266029
+    second: Viking-Sheet_173
+  - first:
+      213: -4431759445455066222
+    second: Viking-Sheet_174
+  - first:
+      213: 369555861172933272
+    second: Viking-Sheet_175
+  - first:
+      213: 6386301347258401836
+    second: Viking-Sheet_176
+  - first:
+      213: 5050848530518163500
+    second: Viking-Sheet_177
+  - first:
+      213: 8686427716899420887
+    second: Viking-Sheet_178
+  - first:
+      213: 229583048374030778
+    second: Viking-Sheet_179
+  - first:
+      213: 1591588142917606558
+    second: Viking-Sheet_180
+  - first:
+      213: 8846415028497944139
+    second: Viking-Sheet_181
+  - first:
+      213: 458845580021329912
+    second: Viking-Sheet_182
+  - first:
+      213: -1981342693493452544
+    second: Viking-Sheet_183
+  - first:
+      213: 145378796404608214
+    second: Viking-Sheet_184
+  - first:
+      213: -6150986271784357603
+    second: Viking-Sheet_185
+  - first:
+      213: -1447475972399104668
+    second: Viking-Sheet_186
+  - first:
+      213: -3730063931464848532
+    second: Viking-Sheet_187
+  - first:
+      213: 1766192032581574131
+    second: Viking-Sheet_188
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KriggerSheets01_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1945
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f50a07a0668fe43a18695ea3f8949f
+      internalID: -1466803504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1945
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e528364419332de4aad84b55ae96eb99
+      internalID: -547810777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_2
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1945
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f32cab7bdda314f8e115499e41a985
+      internalID: -1114053819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_3
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1945
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e95e77ff1e73244be41c079ec2fa1f
+      internalID: -1922088339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_4
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1945
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9900f1c99e00dba44b4427315bb6229c
+      internalID: 2127764701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_5
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1945
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cda8b283e014e1469a11aca80e1cca6
+      internalID: 795289376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_6
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1945
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5334be9fa4cff294bb23973f5bbbb722
+      internalID: 902861953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_7
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1945
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48caffb2b1740f34dacdf070c6e50323
+      internalID: 838593306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_8
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1861
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40980672c78c384dbb0e5001c02e52b
+      internalID: -1118552572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_9
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1861
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d4674d2a58b614182db507801a4514
+      internalID: 977982289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_10
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1861
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14774933dfb728489f93f5ca03d40c3
+      internalID: 1559720987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_11
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1861
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626a216d442e3644e9e3b9c95c2a49e0
+      internalID: 1118554825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_12
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1861
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d87d2cd2eca974aa6bbec2ec278ac6
+      internalID: -1845694414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_13
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1861
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e07b1c6fda76854d85d1bbcd7463de9
+      internalID: 2008654270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_14
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1861
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6abcc0e733b8545a51de16b0784945
+      internalID: 1954586700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_15
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1861
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353133178cb6d68438e827c71d274fd8
+      internalID: 1700110689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_16
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1779
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1d85126e84fa540b28ae78d8f773da
+      internalID: -1571207183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_17
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1777
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0274ba704bdb804dbff382737b26af0
+      internalID: -178833887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_18
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1777
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5906c5c046f753458c2f5a6e9a4891f
+      internalID: -2097078978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_19
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1777
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554a63958f5a89f499d250bcd755f002
+      internalID: 532198369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_20
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1779
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9ba67dd5bc8644d8010add10ca1edf
+      internalID: 290119776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_21
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1777
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0390428da6ba64abe934af4e3a8c29
+      internalID: -769123395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_22
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1777
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b27086cdc122ea4b809d893c99323d8
+      internalID: 1626408154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_23
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1777
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c8d3cef7b69864eb8e375f955aa665
+      internalID: -1058441873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_24
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1693
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b903b4dc1916ca34d94ebf6073b6d970
+      internalID: 690167640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_25
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1693
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0615f60a54f5714a8ab5a09f713b5a9
+      internalID: -1268834564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_26
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1693
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f48994495ec5045922374141d81ccb
+      internalID: -10411793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1693
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48dcdd028211a4e489c231c9ec9d6be5
+      internalID: 1644450090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_28
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1609
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a56cb9ad720ba4992ec151078b7164
+      internalID: 1040560986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_29
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1609
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327d18029f0a38f49ae4290265f39903
+      internalID: -1736421611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_30
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1609
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20923905d117c8d4d93fc0d114ef69cc
+      internalID: -505358641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_31
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1609
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad0166b51e96574abd1cbcb2c25cb8e
+      internalID: -1110976569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_32
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1609
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549f4ee836b245448aae840d1d3f1c8a
+      internalID: 698693883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_33
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1609
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a19642bbc8990f4e9e102d41cd48429
+      internalID: 822377943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_34
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1609
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f2a54843d2c5648b0b00ec20176321
+      internalID: 9498377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_35
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1609
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf9c7af52204504d9eadb101e1da2b5
+      internalID: -1056181028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_36
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1609
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e0c6784757d624596aaf16550fcaa3
+      internalID: -176872777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_37
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 1609
+        width: 53
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f38f8684c7176f478ab9cd8cbeedd34
+      internalID: -1100189759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_38
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1609
+        width: 53
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a999c978b0bdf304b9d3da3d40063839
+      internalID: -1858605182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_39
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1609
+        width: 53
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb4b5dc2afc9c643af436ac2a2bac50
+      internalID: -2130203059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_40
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1527
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfcf08ddf48d22418ca14c32a2a6dbf
+      internalID: -1713979161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_41
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1445
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe455a723142ed4a8b83184a14a5d9c
+      internalID: 1528356938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_42
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1446
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942991491e520b64d99481f12c573191
+      internalID: -572182329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_43
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1444
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b8db47dc50e37488f35e0db0567e74
+      internalID: -1448668202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_44
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1358
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ff331042ac763409a7b92a9affa23c
+      internalID: -139049065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_45
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1273
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fb828b5d6af8f4fb99deb3be7b389f
+      internalID: -280988439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_46
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1273
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b85190bf06cb4840a4cc9476a715343
+      internalID: -185939809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_47
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1273
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedfb52a26604294bb70b86fdea4576e
+      internalID: 1304044329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_48
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1273
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a6699e05219d8419ea734bf64111cf
+      internalID: -1273778890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_49
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1189
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cc467c7c6c4284daaf882bb14c4cbd
+      internalID: 1405240919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_50
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1189
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae7a4d2053f78e4d9d925d169d7caa6
+      internalID: 1604725652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_51
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1189
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977192b16c3ca3d45ab5724f1329bec1
+      internalID: -1747389557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_52
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1189
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c5b53252dc8b24585fac00f2027a6c
+      internalID: 1750806397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_53
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1105
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4f0f1270d567b49b708b8e99ed2515
+      internalID: -1014737712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_54
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1105
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2c183b471231941a6e3ab820888b06
+      internalID: -420301158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_55
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1105
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac4b6717f51db74195cac8a8a41a797
+      internalID: 186567788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_56
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1105
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcbd5c9bfdf0f84d917762f51df5afb
+      internalID: -1597403958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_57
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1021
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686a709f254b3e449a3472831734c126
+      internalID: -1015443600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_58
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1021
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc3998e37d0b1341acce04b8110864e
+      internalID: 589098537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_59
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1021
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a947afeefc974a408c8a5f48c94e351
+      internalID: -127688955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_60
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1021
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d267717de1fe6a54a894d3461a55a87f
+      internalID: -25704116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_61
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1021
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5398b2abf3bee36449a2f28226f34eda
+      internalID: -663958312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_62
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1021
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7886c7f1db883a142848dacbe91cc047
+      internalID: 1607664802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_63
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1021
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c20173ef478e1a408160fdf5630070c
+      internalID: -1757957448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_64
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1021
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48cea30f756eff4588c11b430b6a873
+      internalID: 37166578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_65
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 937
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9fa884c2324384dbc9a6dc3616f73c
+      internalID: 192945167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_66
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 937
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ded8765b4257143ab6b1f841a4212f
+      internalID: -651241065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_67
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 937
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1394bab07351f114a84ff1afafbafe96
+      internalID: -1565231150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_68
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 937
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458c1f522bddd5843a5620fe5a78f7ac
+      internalID: 325834780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_69
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 937
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ca7e39e99c45a43a94ee80b96db670
+      internalID: -1019333775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_70
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 853
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a181868abc24c4f9ff60a85c4810fc
+      internalID: 617809319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_71
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 853
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112f90a4af7d57142b11eb792f56ffd9
+      internalID: 1619737799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_72
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 769
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63570a018e9d36840914dfe98bcd029e
+      internalID: -199217458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_73
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 769
+        width: 65
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6df8e39d0286744a8c0be9a58b7cdb4
+      internalID: 371424468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_74
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 769
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9540398bee292459ff8ed44e6b48f4
+      internalID: 648597315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_75
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 769
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5633f9e9d31f4c044aa93194e33a55ab
+      internalID: 428289942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_76
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 769
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244a3705912095a498a43546f110a704
+      internalID: 673487497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_77
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 685
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2b92f93650e9046890909fae31afc5
+      internalID: 1511153474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_78
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 685
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f961c22ae2c37b547a67a4fd96b28cad
+      internalID: -1791004977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_79
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 685
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5751c2072caf454fb9649e398516926
+      internalID: 769139862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_80
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 685
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd2687c987291d42b6a8a63dcea5bc6
+      internalID: 1222844901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_81
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 685
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ada2b0109abb7e4f8e36df94ed7e40f
+      internalID: -1808106473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_82
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 685
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4de2cd7b80d40d4d9743ec299489575
+      internalID: 1599951180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_83
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 685
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd123698694d7be4b9b176fc6d10f191
+      internalID: -1271519996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_84
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 601
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec346cc7b71d7c64d96d1e6f3799f65e
+      internalID: 251745623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_85
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 604
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3556400ea93289d40a0c78a39bec588b
+      internalID: -1011877012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_86
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 604
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a54dbc87eb66d48a30723843f20599
+      internalID: -1984907065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_87
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 601
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924d1f1115a9cf84596a0bc58c3289e5
+      internalID: 143549349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_88
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 601
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531fa20ed2088c34ea32a5ab907290c7
+      internalID: 671298259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_89
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 604
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ebb1cedbf82d442a56c80a9ba2417c
+      internalID: 851492769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_90
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 604
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0b11f597579a24e8789ff2a7566f2c
+      internalID: 1273770547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_91
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 601
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d248f31ec325c2e42a3141e6fd7d7cf9
+      internalID: -1263029656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_92
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 519
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172170e135b8a46469a1205556026525
+      internalID: -428796315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_93
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 521
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edac9f6af776e8e4e9c1e689a2b3c965
+      internalID: -851380971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_94
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 522
+        width: 65
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424761665dbff3848a62d1466ac37019
+      internalID: 1335126215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_95
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 521
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fd2fceba5b9324e9bc8cf639c0275d
+      internalID: 1940363935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_96
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 520
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3526200521fb59e4289c7269fd971fd0
+      internalID: 998422360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_97
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 520
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3682b17e6b6c6a44b44277aa5e2f772
+      internalID: 1066493043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_98
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 434
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6999b604bd05b4da938a2c057f6f7b
+      internalID: 816273989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_99
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 434
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4a8398613fbcf4a98fae5986c0d6d6
+      internalID: 1676310266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_100
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 434
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86160302abd29f745934e26d40d4f1d2
+      internalID: -1916796969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_101
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 434
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66fa848fdd53c58429707163c517df8a
+      internalID: 135936861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_102
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 434
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803e8f5714ba5fc4e8679b078c0ce76c
+      internalID: -1649486313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_103
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 434
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56dfffb99e1606a41bd9d501871ea4cb
+      internalID: -517644867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_104
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 365
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca04512fc411b34e95051af3f4bd5fe
+      internalID: 2138296873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_105
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 369
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d2c1772cdbe4a48bca3f55d4e4dfa0
+      internalID: -155259335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_106
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 369
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70081d80d351aea46a21fc1fc6d9982a
+      internalID: 35893252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_107
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 370
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fba615a0835024fa2e15e07762cf32
+      internalID: 1698856096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_108
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 369
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fe7216dfe311741a2435eb68da9450
+      internalID: 1338328809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_109
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 265
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55a7445daf72ea46b28aeebea96f11d
+      internalID: -889280578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_110
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 265
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbcabc30b200f24b8fe565135746dbc
+      internalID: -72043235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_111
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 265
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0aa93d5640f5b4e8b829e796f53de2
+      internalID: -1994051507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_112
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 265
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c1627d0c2312c40baf9348f1ed9161
+      internalID: 707382958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_113
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 265
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26e04ed4fcca5643a931ba45b19c437
+      internalID: -1389367225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_114
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 265
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27d89d96a54847409de4af627a54801
+      internalID: -423678253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_115
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 265
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9801f93e653a6f41b30e2f91b605152
+      internalID: -1583385304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_116
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 265
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5370f010ee80c1547b9f8ca3b24526f9
+      internalID: -163129793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_117
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 265
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc2635544f0b9543a4ba89e48d9113a
+      internalID: 183511180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_118
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 265
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27f60c27e8edec45b2875494543deeb
+      internalID: 957224793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_119
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 265
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a04e8b9d802724a9cf37d9c62ab22a
+      internalID: -1861179241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_120
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 265
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b29202245bb7948ac4ecf964517681
+      internalID: -311031616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_121
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 265
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0c3744a65c67e46aa6131421e52f83
+      internalID: 457032697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_122
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 265
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac888d1d8f28bf42b822e358a2e8523
+      internalID: 1092791959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_123
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 265
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4f178f505da7e46b8ee95f3c5aa4df
+      internalID: 1083278365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_124
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 265
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b73fc4fee5619f41a8440caf7d7a7fa
+      internalID: 720393129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_125
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 265
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6682ad638794ed64aac7f67c579967f0
+      internalID: -253286639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_126
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 265
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa8fff1e3f46644baa1d5d95c7dbe12
+      internalID: -216507171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_127
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 265
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800d08af427669b4e98c07db8d5e2935
+      internalID: 1547130754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_128
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 265
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a4edb46c784cf4aaaff330d7808ef0
+      internalID: 1919057537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_129
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 265
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407b6bb27e71ec943b4255b1c13e8d35
+      internalID: 1458236072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_130
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 265
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf979baa52e4c8b41b195e9202b2d9a9
+      internalID: 1641278388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_131
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 265
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3789ba38032dfbc4cb9e579eb6caf860
+      internalID: 99433648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_132
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 265
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acfd9a0d5db48e42921264dfb2704dd
+      internalID: 509571973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_133
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 265
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147c9b382aa25f74db4cba115c7520e8
+      internalID: 1541410243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_134
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 265
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a015d466faf9914e8c31c9fae0a7d54
+      internalID: -1845647808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_135
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 265
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e6a8af19b867040aa741bb8730a4cd
+      internalID: 862013992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_136
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 265
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0008718636c8fb841894c05d64916ff5
+      internalID: -2097722360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_137
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 265
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ddae9bcf5fd4f45a5080619d478c79
+      internalID: -1674039268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_138
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 265
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d81ee22847191498afb31a18e75fe8
+      internalID: 1354384532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_139
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 265
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671179a8b92f3e24bb71a2ae528259df
+      internalID: 1164707447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_140
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 265
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9eeef3735903354abc782aa3ce4e87e
+      internalID: 993138161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_141
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 273
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cb86b63c223a046b44bbc1a86cc471
+      internalID: 74112872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_142
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 270
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c265acdd93f26e46811a243a846d827
+      internalID: -1884486339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_143
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 265
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f110f116f6e05a64d8b698350d6d0d92
+      internalID: 1012982173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_144
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 265
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95d6b6e6725fa742960900fad7c0e00
+      internalID: 590576794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_145
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 265
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd708d9a42f85b243981e00a954f909c
+      internalID: 1920789985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_146
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 265
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cb07d165759ec4895000653f48fd6b
+      internalID: -1739569695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_147
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 265
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc593a2fc3a9e874ab11a51a72c92499
+      internalID: -694697682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_148
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 265
+        width: 65
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b105870e765634541a2d6e1636a9f6c2
+      internalID: 1425603398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_149
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 265
+        width: 102
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087d1aab584d64545a582199a0de6603
+      internalID: 1438910750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_150
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 265
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5048b645d7b2e245bce831b96f1231d
+      internalID: 1448163507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_151
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 265
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2495cb8478d642b428994dd416596b2e
+      internalID: 1713922334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_152
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 265
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e9b553ce3b6634ab5979b6f39166b8
+      internalID: -151205466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_153
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 242
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e00d2b5644c53247920a478f0a468a0
+      internalID: -1184174942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_154
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 181
+        width: 35
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f522ea1e390a584da03fafe523ea54a
+      internalID: -1023758270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_155
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 181
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078a0c0d0719ffd4a868ef60d425b610
+      internalID: -1633426545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_156
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 181
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720b689d8e9729447b9d2e37a46ef22b
+      internalID: -1597797878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_157
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 181
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff78521e9b89c0c48b91a8365556285b
+      internalID: -1498925849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_158
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 181
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e39672b100014448dbce5e89dd50b9
+      internalID: -333666765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_159
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 181
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60030209a500774b82b9deb71a7ecf5
+      internalID: -220315549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_160
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 181
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16348a0904fff7b46adaf1d64ff10b05
+      internalID: -2145883689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_161
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 228
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe2e5b5546841042bf35d19a09f51c5
+      internalID: -7872628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_162
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 181
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52397c595305dd4a9e4198c87cb3cb0
+      internalID: -736734835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_163
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 181
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e977975e2b7af6438aaf1b2a3254642
+      internalID: -2123783011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_164
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 181
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9426a1177f942cb43bcdbd25cfe154af
+      internalID: -1991407063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_165
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 181
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7a3d5368928a8478fc863fd43a55be
+      internalID: -998351360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_166
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 181
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407007d23db4d6445824ddda40992988
+      internalID: -15044190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_167
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 181
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3733e96fea9dd5d4e8ef43ef8b88111d
+      internalID: -1504162409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_168
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 99
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e48e6ecc7922345b3956da02d9b4df
+      internalID: 1564624352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_169
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 99
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc640523cdf5f4943bfb211ce1d9182a
+      internalID: -928445943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_170
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 99
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc89793bd468b284699a0e6bb0a0cd25
+      internalID: 1996007876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_171
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 99
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970a0707547bc4a41877b6cd9f8df276
+      internalID: -1630821356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_172
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 99
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f764a40c0062745ad118228f7a11d3
+      internalID: 1838427031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_173
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 13
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e489b3f09c710447957379152ae1dc1
+      internalID: 833133949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_174
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 13
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9019f39fc9d4f4ba014927b48ec689
+      internalID: -4543894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_175
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 13
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3cbef39397be042a800faa0680cdf3
+      internalID: -989334576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_176
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 40
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9578cf11c7401469e11ca9f37573ac
+      internalID: 1895171549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_177
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 13
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59669574141ed234fa164328730567de
+      internalID: 203318532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_178
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 40
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a8bf2c9623a8c4fa11bcd1be2fde9e
+      internalID: 2144087675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_179
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 13
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d73c529e1475748ad621dca96e7022
+      internalID: 174498005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_180
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 13
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef75dc3088415649a5207718c37530d
+      internalID: 1413606396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_181
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 13
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614907d1aeb573c449e30123944452a1
+      internalID: 1468184953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_182
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 13
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded750994823cff4c93e024b7aac19a1
+      internalID: 1180709654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_183
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 13
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d821b8f93941f5c478c3dbc09216d2e0
+      internalID: -1039702184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_184
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 39
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc39b0977abfd7b4a8fc07677d3460ed
+      internalID: 331567462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_185
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 13
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfd7bc87edadeb4e8c3f59d228c9189
+      internalID: 582678670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_186
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 33
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77b06002966d3046b466643d0b4deb9
+      internalID: 499581331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_187
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 13
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adca0860751804448d076d3e90788fb
+      internalID: 936531472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KriggerSheets01_188
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 13
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f319836edd14cd148b916d2230a9804b
+      internalID: -1665900203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e4a8f05530d1d324b8af1ab94027d40a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      KriggerSheets01_0: -1466803504
+      KriggerSheets01_1: -547810777
+      KriggerSheets01_10: 1559720987
+      KriggerSheets01_100: -1916796969
+      KriggerSheets01_101: 135936861
+      KriggerSheets01_102: -1649486313
+      KriggerSheets01_103: -517644867
+      KriggerSheets01_104: 2138296873
+      KriggerSheets01_105: -155259335
+      KriggerSheets01_106: 35893252
+      KriggerSheets01_107: 1698856096
+      KriggerSheets01_108: 1338328809
+      KriggerSheets01_109: -889280578
+      KriggerSheets01_11: 1118554825
+      KriggerSheets01_110: -72043235
+      KriggerSheets01_111: -1994051507
+      KriggerSheets01_112: 707382958
+      KriggerSheets01_113: -1389367225
+      KriggerSheets01_114: -423678253
+      KriggerSheets01_115: -1583385304
+      KriggerSheets01_116: -163129793
+      KriggerSheets01_117: 183511180
+      KriggerSheets01_118: 957224793
+      KriggerSheets01_119: -1861179241
+      KriggerSheets01_12: -1845694414
+      KriggerSheets01_120: -311031616
+      KriggerSheets01_121: 457032697
+      KriggerSheets01_122: 1092791959
+      KriggerSheets01_123: 1083278365
+      KriggerSheets01_124: 720393129
+      KriggerSheets01_125: -253286639
+      KriggerSheets01_126: -216507171
+      KriggerSheets01_127: 1547130754
+      KriggerSheets01_128: 1919057537
+      KriggerSheets01_129: 1458236072
+      KriggerSheets01_13: 2008654270
+      KriggerSheets01_130: 1641278388
+      KriggerSheets01_131: 99433648
+      KriggerSheets01_132: 509571973
+      KriggerSheets01_133: 1541410243
+      KriggerSheets01_134: -1845647808
+      KriggerSheets01_135: 862013992
+      KriggerSheets01_136: -2097722360
+      KriggerSheets01_137: -1674039268
+      KriggerSheets01_138: 1354384532
+      KriggerSheets01_139: 1164707447
+      KriggerSheets01_14: 1954586700
+      KriggerSheets01_140: 993138161
+      KriggerSheets01_141: 74112872
+      KriggerSheets01_142: -1884486339
+      KriggerSheets01_143: 1012982173
+      KriggerSheets01_144: 590576794
+      KriggerSheets01_145: 1920789985
+      KriggerSheets01_146: -1739569695
+      KriggerSheets01_147: -694697682
+      KriggerSheets01_148: 1425603398
+      KriggerSheets01_149: 1438910750
+      KriggerSheets01_15: 1700110689
+      KriggerSheets01_150: 1448163507
+      KriggerSheets01_151: 1713922334
+      KriggerSheets01_152: -151205466
+      KriggerSheets01_153: -1184174942
+      KriggerSheets01_154: -1023758270
+      KriggerSheets01_155: -1633426545
+      KriggerSheets01_156: -1597797878
+      KriggerSheets01_157: -1498925849
+      KriggerSheets01_158: -333666765
+      KriggerSheets01_159: -220315549
+      KriggerSheets01_16: -1571207183
+      KriggerSheets01_160: -2145883689
+      KriggerSheets01_161: -7872628
+      KriggerSheets01_162: -736734835
+      KriggerSheets01_163: -2123783011
+      KriggerSheets01_164: -1991407063
+      KriggerSheets01_165: -998351360
+      KriggerSheets01_166: -15044190
+      KriggerSheets01_167: -1504162409
+      KriggerSheets01_168: 1564624352
+      KriggerSheets01_169: -928445943
+      KriggerSheets01_17: -178833887
+      KriggerSheets01_170: 1996007876
+      KriggerSheets01_171: -1630821356
+      KriggerSheets01_172: 1838427031
+      KriggerSheets01_173: 833133949
+      KriggerSheets01_174: -4543894
+      KriggerSheets01_175: -989334576
+      KriggerSheets01_176: 1895171549
+      KriggerSheets01_177: 203318532
+      KriggerSheets01_178: 2144087675
+      KriggerSheets01_179: 174498005
+      KriggerSheets01_18: -2097078978
+      KriggerSheets01_180: 1413606396
+      KriggerSheets01_181: 1468184953
+      KriggerSheets01_182: 1180709654
+      KriggerSheets01_183: -1039702184
+      KriggerSheets01_184: 331567462
+      KriggerSheets01_185: 582678670
+      KriggerSheets01_186: 499581331
+      KriggerSheets01_187: 936531472
+      KriggerSheets01_188: -1665900203
+      KriggerSheets01_19: 532198369
+      KriggerSheets01_2: -1114053819
+      KriggerSheets01_20: 290119776
+      KriggerSheets01_21: -769123395
+      KriggerSheets01_22: 1626408154
+      KriggerSheets01_23: -1058441873
+      KriggerSheets01_24: 690167640
+      KriggerSheets01_25: -1268834564
+      KriggerSheets01_26: -10411793
+      KriggerSheets01_27: 1644450090
+      KriggerSheets01_28: 1040560986
+      KriggerSheets01_29: -1736421611
+      KriggerSheets01_3: -1922088339
+      KriggerSheets01_30: -505358641
+      KriggerSheets01_31: -1110976569
+      KriggerSheets01_32: 698693883
+      KriggerSheets01_33: 822377943
+      KriggerSheets01_34: 9498377
+      KriggerSheets01_35: -1056181028
+      KriggerSheets01_36: -176872777
+      KriggerSheets01_37: -1100189759
+      KriggerSheets01_38: -1858605182
+      KriggerSheets01_39: -2130203059
+      KriggerSheets01_4: 2127764701
+      KriggerSheets01_40: -1713979161
+      KriggerSheets01_41: 1528356938
+      KriggerSheets01_42: -572182329
+      KriggerSheets01_43: -1448668202
+      KriggerSheets01_44: -139049065
+      KriggerSheets01_45: -280988439
+      KriggerSheets01_46: -185939809
+      KriggerSheets01_47: 1304044329
+      KriggerSheets01_48: -1273778890
+      KriggerSheets01_49: 1405240919
+      KriggerSheets01_5: 795289376
+      KriggerSheets01_50: 1604725652
+      KriggerSheets01_51: -1747389557
+      KriggerSheets01_52: 1750806397
+      KriggerSheets01_53: -1014737712
+      KriggerSheets01_54: -420301158
+      KriggerSheets01_55: 186567788
+      KriggerSheets01_56: -1597403958
+      KriggerSheets01_57: -1015443600
+      KriggerSheets01_58: 589098537
+      KriggerSheets01_59: -127688955
+      KriggerSheets01_6: 902861953
+      KriggerSheets01_60: -25704116
+      KriggerSheets01_61: -663958312
+      KriggerSheets01_62: 1607664802
+      KriggerSheets01_63: -1757957448
+      KriggerSheets01_64: 37166578
+      KriggerSheets01_65: 192945167
+      KriggerSheets01_66: -651241065
+      KriggerSheets01_67: -1565231150
+      KriggerSheets01_68: 325834780
+      KriggerSheets01_69: -1019333775
+      KriggerSheets01_7: 838593306
+      KriggerSheets01_70: 617809319
+      KriggerSheets01_71: 1619737799
+      KriggerSheets01_72: -199217458
+      KriggerSheets01_73: 371424468
+      KriggerSheets01_74: 648597315
+      KriggerSheets01_75: 428289942
+      KriggerSheets01_76: 673487497
+      KriggerSheets01_77: 1511153474
+      KriggerSheets01_78: -1791004977
+      KriggerSheets01_79: 769139862
+      KriggerSheets01_8: -1118552572
+      KriggerSheets01_80: 1222844901
+      KriggerSheets01_81: -1808106473
+      KriggerSheets01_82: 1599951180
+      KriggerSheets01_83: -1271519996
+      KriggerSheets01_84: 251745623
+      KriggerSheets01_85: -1011877012
+      KriggerSheets01_86: -1984907065
+      KriggerSheets01_87: 143549349
+      KriggerSheets01_88: 671298259
+      KriggerSheets01_89: 851492769
+      KriggerSheets01_9: 977982289
+      KriggerSheets01_90: 1273770547
+      KriggerSheets01_91: -1263029656
+      KriggerSheets01_92: -428796315
+      KriggerSheets01_93: -851380971
+      KriggerSheets01_94: 1335126215
+      KriggerSheets01_95: 1940363935
+      KriggerSheets01_96: 998422360
+      KriggerSheets01_97: 1066493043
+      KriggerSheets01_98: 816273989
+      KriggerSheets01_99: 1676310266
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
