@@ -40,11 +40,21 @@ public class PlayerAtaque : MonoBehaviour
         anim.SetInteger("comboPasso", comboPasso);
         anim.SetTrigger("atacar");
 
-        // Detecção de inimigos
+        // 1. Detecta todos os objetos na área do círculo de ataque
         Collider2D[] inimigosAtingidos = Physics2D.OverlapCircleAll(pontoDeAtaque.position, raioDoAtaque, layerInimigo);
-        foreach (Collider2D inimigo in inimigosAtingidos)
+
+        // 2. Loop para aplicar dano a cada inimigo detectado
+        foreach (Collider2D colisor in inimigosAtingidos)
         {
-            Debug.Log("Kriger acertou o combo " + comboPasso + " em: " + inimigo.name);
+            // Tenta encontrar o script do inimigo no objeto atingido
+            InimigoSimples inimigo = colisor.GetComponent<InimigoSimples>();
+
+            if (inimigo != null)
+            {
+                // Aplica 1 de dano (ou o valor que você desejar)
+                inimigo.TomarDano(1);
+                Debug.Log("Kriger acertou o inimigo: " + colisor.name);
+            }
         }
     }
 
