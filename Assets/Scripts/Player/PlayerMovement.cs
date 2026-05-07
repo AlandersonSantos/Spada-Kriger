@@ -46,8 +46,8 @@ public class PlayerMovement : MonoBehaviour
         anim.SetFloat("velocidade", Mathf.Abs(movement));
         anim.SetBool("estaCorrendo", estaCorrendo);
 
-        // 3. Lógica de Pulo
-        if (Input.GetButtonDown("Jump") && estaNoChao)
+        // 3. Lógica de Pulo (Atualizada com W e Seta para Cima)
+        if (estaNoChao && (Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)))
         {
             // Aplica força vertical mantendo a velocidade horizontal atual
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, forcaPulo);
@@ -115,7 +115,6 @@ public class PlayerMovement : MonoBehaviour
         transform.localScale = escala;
     }
 
-    // Desenha o círculo de detecção no Editor para te ajudar a posicionar
     private void OnDrawGizmosSelected()
     {
         if (checadorChao != null)
