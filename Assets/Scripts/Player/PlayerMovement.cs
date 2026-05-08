@@ -60,8 +60,19 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        // 4. Movimentação Física
-        rb.linearVelocity = new Vector2(movement * velocidadeAtual, rb.linearVelocity.y);
+        // Criamos um Vector2 para a velocidade desejada
+        float targetVelocityX = movement * velocidadeAtual;
+        
+        // Se estivermos a mover, mantemos a velocidade vertical da física (importante para rampas)
+        // Adicionamos uma pequena verificação: se o movimento for 0 e estiver no chão, paramos totalmente para não deslizar
+        if (movement != 0)
+        {
+            rb.linearVelocity = new Vector2(targetVelocityX, rb.linearVelocity.y);
+        }
+        else if (estaNoChao)
+        {
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+        }
     }
 
     private void DetectarCliqueDuplo()
