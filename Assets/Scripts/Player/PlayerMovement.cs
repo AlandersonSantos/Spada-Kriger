@@ -134,4 +134,17 @@ public class PlayerMovement : MonoBehaviour
             Gizmos.DrawWireSphere(checadorChao.position, raioChecador);
         }
     }
+
+    // No script PlayerMovement.cs
+    public void TomarDano(float forcaArremesso, Vector2 direcao)
+    {
+        // Aplica o arremesso (knockback)
+        rb.linearVelocity = Vector2.zero; // Reseta a velocidade para o impacto ser limpo
+        rb.AddForce(direcao * forcaArremesso, ForceMode2D.Impulse);
+        
+        // Dispara animação de dano se tiver
+        if (anim != null) anim.SetTrigger("tomouDano");
+        
+        Debug.Log("Kriger foi atingido e arremessado!");
+    }
 }

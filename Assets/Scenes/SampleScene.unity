@@ -1937,7 +1937,7 @@ GameObject:
   - component: {fileID: 1253546309}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6189,16 +6189,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 1, y: -1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 18
-      m_TileSpriteIndex: 18
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: -29, y: 0, z: 0}
     second:
       serializedVersion: 2
@@ -6324,16 +6314,6 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 12
       m_TileSpriteIndex: 12
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 1, y: 0, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 13
-      m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -6861,7 +6841,7 @@ Tilemap:
     m_RefCount: 4
     m_Data: {fileID: 11400000, guid: 54bfc9ce966290a45b8994c0602135f4, type: 2}
   - serializedVersion: 2
-    m_RefCount: 1
+    m_RefCount: 0
     m_Data: {fileID: 11400000, guid: a6c4c3a4c308aa2498c17ca40c4ab2c9, type: 2}
   - serializedVersion: 2
     m_RefCount: 180
@@ -6876,7 +6856,7 @@ Tilemap:
     m_RefCount: 8
     m_Data: {fileID: 11400000, guid: 4f3358d658a1ec74290a2e26babe2323, type: 2}
   - serializedVersion: 2
-    m_RefCount: 1
+    m_RefCount: 0
     m_Data: {fileID: 11400000, guid: eaaa0240486ff7a4bbbf8c3a832e7311, type: 2}
   - serializedVersion: 2
     m_RefCount: 1
@@ -6946,7 +6926,7 @@ Tilemap:
     m_RefCount: 4
     m_Data: {fileID: 434004360, guid: 80b4e46faa95c8b46ab545ac38e5871a, type: 3}
   - serializedVersion: 2
-    m_RefCount: 1
+    m_RefCount: 0
     m_Data: {fileID: 1403328764, guid: 80b4e46faa95c8b46ab545ac38e5871a, type: 3}
   - serializedVersion: 2
     m_RefCount: 180
@@ -6961,7 +6941,7 @@ Tilemap:
     m_RefCount: 8
     m_Data: {fileID: 1703683483, guid: 80b4e46faa95c8b46ab545ac38e5871a, type: 3}
   - serializedVersion: 2
-    m_RefCount: 1
+    m_RefCount: 0
     m_Data: {fileID: 674502507, guid: 80b4e46faa95c8b46ab545ac38e5871a, type: 3}
   - serializedVersion: 2
     m_RefCount: 1
@@ -6992,7 +6972,7 @@ Tilemap:
     m_Data: {fileID: -63235635, guid: 80b4e46faa95c8b46ab545ac38e5871a, type: 3}
   m_TileMatrixArray:
   - serializedVersion: 2
-    m_RefCount: 417
+    m_RefCount: 415
     m_Data:
       e00: 1
       e01: 0
@@ -7031,7 +7011,7 @@ Tilemap:
       e33: 1
   m_TileColorArray:
   - serializedVersion: 2
-    m_RefCount: 417
+    m_RefCount: 415
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -7248,28 +7228,6 @@ CompositeCollider2D:
       - X: 40000000
         Y: -30000000
       - X: 40000000
-        Y: -10000000
-      - X: 20000000
-        Y: -10000000
-      - X: 20000000
-        Y: -3125000
-      - X: 19375000
-        Y: 0
-      - X: 20000000
-        Y: 0
-      - X: 20000000
-        Y: 8750000
-      - X: 10625000
-        Y: 8750000
-      - X: 10000000
-        Y: 8125000
-      - X: 10000000
-        Y: 0
-      - X: 12500000
-        Y: 0
-      - X: 10000000
-        Y: -7500000
-      - X: 10000000
         Y: -10000000
       - X: -10000000
         Y: -10000000
@@ -7927,17 +7885,6 @@ CompositeCollider2D:
       - {x: 12.99997, y: -3}
       - {x: 4, y: -2.9999707}
       - {x: 3.999971, y: -1}
-      - {x: 2, y: -0.9999706}
-      - {x: 1.9999996, y: -0.3124978}
-      - {x: 1.9375374, y: 0}
-      - {x: 2, y: 0.000029300001}
-      - {x: 1.9999708, y: 0.875}
-      - {x: 1.0624924, y: 0.87499243}
-      - {x: 1, y: 0.8124892}
-      - {x: 1.0000293, y: 0}
-      - {x: 1.2499863, y: -0.0000416}
-      - {x: 1, y: -0.75000423}
-      - {x: 0.9999706, y: -1}
       - {x: -1.0000073, y: -0.9999925}
       - {x: -3.0000107, y: 1}
       - {x: -5.000007, y: 1.0000075}
@@ -13259,6 +13206,10 @@ MonoBehaviour:
   velocidade: 2
   pontoA: {fileID: 1421538910}
   pontoB: {fileID: 564283106}
+  raioPercepcao: 3
+  cooldownAtaque: 2
+  danoAoContato: 1
+  forcaArremesso: 10
 --- !u!70 &1810341552
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

@@ -12,10 +12,42 @@ public class InimigoSimples : MonoBehaviour
     public Transform pontoB;
     private Transform destinoAtual;
 
+    [Header("IA de Ataque")]
+    [SerializeField] private float raioPercepcao = 3.0f; // Distância que ele nota o Player
+    [SerializeField] private float cooldownAtaque = 1.5f; // Intervalo entre ataques
+    private float tempoUltimoAtaque;
+    private Transform player;
+
     private Rigidbody2D rb;
     private Animator anim;
     private bool estaMorto = false;
 
+
+    [Header("Dano por Contato")]
+    [SerializeField] private float danoAoContato = 1f;
+    [SerializeField] private float forcaArremesso = 8f;
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            // Verifica se o player está acima do centro do inimigo
+            foreach (ContactPoint2D ponto in collision.contacts)
+            {
+                if (ponto.normal.y < -0.5f) // Normal negativa indica impacto vindo de cima
+                {
+                    PlayerMovement playerScript = collision.gameObject.GetComponent<PlayerMovement>();
+                    
+                    if (playerScript != null)
+                    {
+                        // Calcula direção do arremesso (para cima e levemente para o lado oposto)
+                        Vector2 direcaoArremesso = new Vector2(ponto.normal.x * -1, 1).normalized;
+                        playerScript.TomarDano(forcaArremesso, direcaoArremesso);
+                    }
+                }
+            }
+        }
+    }
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -25,94 +57,103 @@ public class InimigoSimples : MonoBehaviour
     void Start()
     {
         vidaAtual = vidaMaxima;
-        destinoAtual = pontoB; // Começa patrulhando em direção ao Ponto B
+        destinoAtual = pontoB; 
+        
+        // Busca o player pela Tag (Certifique-se que o Kriger tenha a tag "Player")
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        if (playerObj != null) player = playerObj.transform;
     }
 
     void Update()
     {
-        if (estaMorto) return;
+        if (estaMorto || player == null) return;
 
-        Patrulhar();
+        // Calcula a distância para o Kriger
+        float distanciaParaPlayer = Vector2.Distance(transform.position, player.position);
+
+        // Lógica de decisão: Atacar ou Patrulhar
+        if (distanciaParaPlayer <= raioPercepcao)
+        {
+            if (Time.time >= tempoUltimoAtaque + cooldownAtaque)
+            {
+                AtacarPlayer();
+            }
+            else
+            {
+                // Para enquanto espera o cooldown para não "atropelar" o player
+                rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+                if (anim != null) anim.SetBool("estaCaminhando", false);
+            }
+        }
+        else
+        {
+            Patrulhar();
+        }
     }
 
     void Patrulhar()
     {
-        // Calcula a direção para o próximo ponto
         Vector2 direcao = (destinoAtual.position - transform.position).normalized;
-        
-        // Aplica a velocidade no Rigidbody (mantendo a gravidade no eixo Y)
         rb.linearVelocity = new Vector2(direcao.x * velocidade, rb.linearVelocity.y);
 
-        // --- ATUALIZAÇÃO DO ANIMATOR ---
-        // Se a velocidade horizontal for diferente de zero, ativa o bool no Animator
         if (anim != null)
         {
             anim.SetBool("estaCaminhando", Mathf.Abs(rb.linearVelocity.x) > 0.1f);
         }
 
-        // Verifica se chegou perto o suficiente do ponto para trocar de direção
         if (Vector2.Distance(transform.position, destinoAtual.position) < 0.5f)
         {
-            if (destinoAtual == pontoA)
-            {
-                destinoAtual = pontoB;
-            }
-            else
-            {
-                destinoAtual = pontoA;
-            }
-            
+            destinoAtual = (destinoAtual == pontoA) ? pontoB : pontoA;
             Flip();
         }
     }
 
+    void AtacarPlayer()
+    {
+        tempoUltimoAtaque = Time.time;
+        rb.linearVelocity = new Vector2(0, rb.linearVelocity.y); // Para para atacar
+
+        if (anim != null)
+        {
+            anim.SetBool("estaCaminhando", false);
+            anim.SetTrigger("atacar");
+        }
+
+        Debug.Log("Golem percebeu o Kriger e atacou!");
+    }
+
     void Flip()
     {
-        // Inverte a escala X do inimigo para ele olhar para o lado certo
         Vector3 escala = transform.localScale;
         escala.x *= -1;
         transform.localScale = escala;
     }
 
-    // Chamado pelo script PlayerAtaque do Kriger
     public void TomarDano(float dano)
     {
         if (estaMorto) return;
-
         vidaAtual -= dano;
         
-        // Toca o Trigger de dano no Animator
-        if (anim != null)
-        {
-            anim.SetTrigger("tomouDano");
-        }
+        if (anim != null) anim.SetTrigger("tomouDano");
 
-        Debug.Log("Inimigo atingido! Vida: " + vidaAtual);
-
-        if (vidaAtual <= 0)
-        {
-            Morrer();
-        }
+        if (vidaAtual <= 0) Morrer();
     }
 
     void Morrer()
     {
         estaMorto = true;
-        
-        // 1. Para o movimento e ignora a gravidade
         rb.linearVelocity = Vector2.zero;
-        rb.bodyType = RigidbodyType2D.Static; // Isso "prega" o Golem no ar/chão
+        rb.bodyType = RigidbodyType2D.Static; 
 
-        // 2. Toca a animação
-        if (anim != null)
-        {
-            anim.SetTrigger("morreu");
-        }
-
-        // 3. Opcional: Desative o colisor apenas se o corpo estiver atrapalhando o caminho, 
-        // mas agora ele não vai cair porque o bodyType é Static.
-        // GetComponent<Collider2D>().enabled = false;
+        if (anim != null) anim.SetTrigger("morreu");
 
         Destroy(gameObject, 2f);
+    }
+
+    // Desenha o círculo amarelo no Editor para você ajustar o alcance
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, raioPercepcao);
     }
 }
