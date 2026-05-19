@@ -53,6 +53,12 @@ TagManager:
   - name: Enemy
     uniqueID: 2466771311
     locked: 0
+  - name: Chao
+    uniqueID: 2069979775
+    locked: 0
+  - name: Neve
+    uniqueID: 2023152487
+    locked: 0
   - name: Ui
     uniqueID: 2632284941
     locked: 0
