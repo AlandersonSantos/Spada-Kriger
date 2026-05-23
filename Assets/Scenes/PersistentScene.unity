@@ -836,7 +836,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1295,6 +1295,10 @@ PrefabInstance:
       propertyPath: 'HeartImage.Array.data[4]'
       value: 
       objectReference: {fileID: 886478601}
+    - target: {fileID: 3351096691714121555, guid: da45585ed57c4ad43b4352734a49fe79, type: 3}
+      propertyPath: somPasso
+      value: 
+      objectReference: {fileID: 8300000, guid: 37937657941a2874caf0edee6e356c0d, type: 3}
     - target: {fileID: 3351096691714121555, guid: da45585ed57c4ad43b4352734a49fe79, type: 3}
       propertyPath: forcaPulo
       value: 13
