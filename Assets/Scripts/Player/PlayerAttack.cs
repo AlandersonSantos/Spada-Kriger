@@ -11,6 +11,8 @@ public class PlayerAtaque : MonoBehaviour
     private float tempoUltimoClique; 
     public float janelaCombo = 0.7f; 
 
+    [SerializeField] private AudioClip somAtaque;
+
     void Update()
     {
         // Reseta o combo se passar o tempo da janela
@@ -39,6 +41,7 @@ public class PlayerAtaque : MonoBehaviour
 
         anim.SetInteger("comboPasso", comboPasso);
         anim.SetTrigger("atacar");
+        AudioManager.Instancia.PlayOneShotAudio(somAtaque);
 
         // 1. Detecta todos os objetos na área do círculo de ataque
         Collider2D[] inimigosAtingidos = Physics2D.OverlapCircleAll(pontoDeAtaque.position, raioDoAtaque, layerInimigo);
