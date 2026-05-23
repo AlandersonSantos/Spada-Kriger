@@ -15,6 +15,12 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] [Range(1, 10)] private float velocidadeCaminhada = 5.0f;
     [SerializeField] [Range(5, 20)] private float velocidadeCorrida = 10.0f;
 
+    [Header("Configurações de Som")]
+    [SerializeField] private AudioClip somPasso;
+    [SerializeField] private float intervaloPasso = 0.5f;
+
+    private float timerPassos;
+
     [Header("Configurações de Pulo")]
     [SerializeField] private float forcaPulo = 10.0f;
     [SerializeField] private Transform checadorChao; // Arraste o objeto "PeNoChao" aqui
@@ -56,6 +62,23 @@ public class PlayerMovement : MonoBehaviour
 
         DetectarCliqueDuplo();
         VerificarDirecao();
+
+        if (movement != 0 && estaNoChao)
+        {
+            Debug.Log("Paasos");
+            timerPassos += Time.deltaTime;
+
+        if (timerPassos >= intervaloPasso)
+        {
+        AudioManager.Instancia.PlayOneShotAudio(somPasso);
+
+        timerPassos = 0f;
+        }
+        }
+        else
+        {
+            timerPassos = 0f;
+        }
     }
 
     void FixedUpdate()
