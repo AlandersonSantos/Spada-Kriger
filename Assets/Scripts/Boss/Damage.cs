@@ -2,8 +2,12 @@ using UnityEngine;
 
 public class BossDamage : MonoBehaviour
 {
+    [Header("Player")]
     public Transform player;
 
+    private HealthSystem playerHealth;
+
+    [Header("Dano")]
     public int damage = 2;
 
     public float damageRange = 2f;
@@ -11,8 +15,6 @@ public class BossDamage : MonoBehaviour
     public float damageCooldown = 2f;
 
     private float nextDamageTime;
-
-    private HealthSystem playerHealth;
 
     void Start()
     {
@@ -25,11 +27,19 @@ public class BossDamage : MonoBehaviour
         }
     }
 
-    void Update()
+    // CHAMADO PELO ANIMATION EVENT
+    public void DealDamage()
     {
         if (
-            player == null ||
+            player == null
+            ||
             playerHealth == null
+        )
+            return;
+
+        if (
+            Time.time <
+            nextDamageTime
         )
             return;
 
@@ -40,19 +50,8 @@ public class BossDamage : MonoBehaviour
             );
 
         if (
-            distance <=
+            distance >
             damageRange
-        )
-        {
-            TryDamage();
-        }
-    }
-
-    void TryDamage()
-    {
-        if (
-            Time.time <
-            nextDamageTime
         )
             return;
 
@@ -66,9 +65,20 @@ public class BossDamage : MonoBehaviour
             damageCooldown;
 
         Debug.Log(
-            "Boss deu "
+            "Boss causou "
             + damage +
             " de dano"
+        );
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color =
+            Color.red;
+
+        Gizmos.DrawWireSphere(
+            transform.position,
+            damageRange
         );
     }
 }

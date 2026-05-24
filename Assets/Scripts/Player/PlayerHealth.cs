@@ -4,71 +4,137 @@ using UnityEngine.InputSystem;
 
 public class HealthSystem : MonoBehaviour
 {
-    public int currentHealth = 10;
-    public int maxHealth = 10;
+    [Header("Vida")]
+    public int currentHealth = 50;
 
+    public int maxHealth = 50;
+
+    [Header("UI")]
     public Image[] HeartImage;
 
     public Sprite FullHeart;
+
     public Sprite HalfHeart;
+
     public Sprite EmptyHeart;
+
+    // 50 HP / 5 corações
+    private int hpPorCoracao = 10;
 
     void Start()
     {
-        currentHealth = maxHealth;
+        currentHealth =
+            maxHealth;
+
         healthLogic();
     }
 
     void Update()
     {
         // J = meio coração
-        if (Keyboard.current.jKey.wasPressedThisFrame)
+        if (
+            Keyboard.current
+            .jKey
+            .wasPressedThisFrame
+        )
         {
-            ChangeHealth(-1);
+            ChangeHealth(
+                -5
+            );
         }
 
-        // K = um coração
-        if (Keyboard.current.kKey.wasPressedThisFrame)
+        // K = coração inteiro
+        if (
+            Keyboard.current
+            .kKey
+            .wasPressedThisFrame
+        )
         {
-            ChangeHealth(-2);
+            ChangeHealth(
+                -10
+            );
         }
 
-        // R = restaura tudo
-        if (Keyboard.current.rKey.wasPressedThisFrame)
+        // Restaurar
+        if (
+            Keyboard.current
+            .rKey
+            .wasPressedThisFrame
+        )
         {
-            currentHealth = maxHealth;
+            currentHealth =
+                maxHealth;
+
             healthLogic();
         }
-
-            if (Keyboard.current.jKey.wasPressedThisFrame) {
-            Debug.Log("J apertado");
-        }
-
     }
 
-    public void ChangeHealth(int amount) {
-        currentHealth += amount;
+    public void ChangeHealth(
+        int amount
+    )
+    {
+        currentHealth +=
+            amount;
 
-        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+        currentHealth =
+            Mathf.Clamp(
+                currentHealth,
+                0,
+                maxHealth
+            );
 
-        Debug.Log("Vida atual: " + currentHealth);
+        Debug.Log(
+            "Vida atual: "
+            + currentHealth
+        );
 
         healthLogic();
     }
 
     void healthLogic()
     {
-        for (int i = 0; i < HeartImage.Length; i++)
+        for (
+            int i = 0;
+            i <
+            HeartImage.Length;
+            i++
+        )
         {
-            if (currentHealth >= (i + 1) * 2)
-                HeartImage[i].sprite = FullHeart;
+            int fullHeart =
+                (
+                    i + 1
+                ) *
+                hpPorCoracao;
 
-            else if (currentHealth == (i * 2) + 1)
-                HeartImage[i].sprite = HalfHeart;
+            int halfHeart =
+                fullHeart - 5;
+
+            if (
+                currentHealth >=
+                fullHeart
+            )
+            {
+                HeartImage[i]
+                .sprite =
+                FullHeart;
+            }
+
+            else if (
+                currentHealth >=
+                halfHeart
+            )
+            {
+                HeartImage[i]
+                .sprite =
+                HalfHeart;
+            }
 
             else
-                HeartImage[i].sprite = EmptyHeart;
+            {
+                HeartImage[i]
+                .sprite =
+                EmptyHeart;
+            }
         }
     }
-
 }
