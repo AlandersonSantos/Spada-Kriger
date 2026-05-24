@@ -17,6 +17,15 @@ public class BossAI : MonoBehaviour
 
     private float nextAttackTime;
 
+    [Header("Áudio passos")]
+    [SerializeField] private AudioClip somPassoBoss;
+    [SerializeField] private float intervaloPassoBoss = 0.5f;
+
+    [Header("Áudio Attack")]
+    [SerializeField] private AudioClip somAttackBoss;
+
+private float timerPassos;
+
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -59,7 +68,20 @@ public class BossAI : MonoBehaviour
                 anim.SetBool(
                     "walking",
                     true
+
+                
                 );
+
+                
+
+                    timerPassos += Time.fixedDeltaTime;
+
+                    if (timerPassos >= intervaloPassoBoss)
+                    {
+                        AudioManager.Instancia.PlayOneShotAudio(somPassoBoss);
+
+                        timerPassos = 0f;
+                    }
             }
         }
         else
@@ -89,6 +111,8 @@ public class BossAI : MonoBehaviour
             "walking",
             false
         );
+
+        timerPassos = 0f;
     }
 
     void Attack()
@@ -102,6 +126,8 @@ public class BossAI : MonoBehaviour
         anim.SetTrigger(
             "attack"
         );
+
+        AudioManager.Instancia.PlayOneShotAudio(somAttackBoss);
 
         nextAttackTime =
             Time.time +

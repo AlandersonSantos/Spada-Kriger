@@ -15,11 +15,16 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] [Range(1, 10)] private float velocidadeCaminhada = 5.0f;
     [SerializeField] [Range(5, 20)] private float velocidadeCorrida = 10.0f;
 
-    [Header("Configurações de Som")]
+    [Header("Configurações de Som corrida e andando")]
     [SerializeField] private AudioClip somPasso;
+    [SerializeField] private AudioClip somPassoCorrendo;
     [SerializeField] private float intervaloPasso = 0.5f;
+    [SerializeField] private float intervaloPassoCorrendo = 0.2f;
 
     private float timerPassos;
+
+    [Header("Configurações de pulo")]
+    [SerializeField] private AudioClip somPulo;
 
     [Header("Configurações de Pulo")]
     [SerializeField] private float forcaPulo = 10.0f;
@@ -58,6 +63,7 @@ public class PlayerMovement : MonoBehaviour
             // Aplica força vertical mantendo a velocidade horizontal atual
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, forcaPulo);
             anim.SetTrigger("pular");
+            AudioManager.Instancia.PlayOneShotAudio(somPulo);
         }
 
         DetectarCliqueDuplo();
