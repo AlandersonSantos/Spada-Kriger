@@ -11,8 +11,12 @@ public class NPCDialogue : MonoBehaviour
 
     void Update()
     {
-        if(playerNear &&
-           Input.GetKeyDown(KeyCode.E))
+       if(
+        playerNear &&
+        Input.GetKeyDown(KeyCode.L) &&
+        !DialogueManager.instance.IsDialogueOpen() &&
+        !DialogueManager.instance.justClosed
+        )
         {
             DialogueManager.instance
             .StartDialogue(
@@ -22,8 +26,7 @@ public class NPCDialogue : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(
-    Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("Player"))
         {
@@ -31,8 +34,7 @@ public class NPCDialogue : MonoBehaviour
         }
     }
 
-    void OnTriggerExit2D(
-    Collider2D other)
+    void OnTriggerExit2D(Collider2D other)
     {
         if(other.CompareTag("Player"))
         {

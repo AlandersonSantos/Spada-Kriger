@@ -92,49 +92,27 @@ public class HealthSystem : MonoBehaviour
     }
 
     void healthLogic()
+{
+    for (int i = 0; i < HeartImage.Length; i++)
     {
-        for (
-            int i = 0;
-            i <
-            HeartImage.Length;
-            i++
-        )
+        int vidaDoCoracao =
+            currentHealth - (i * hpPorCoracao);
+
+        if (vidaDoCoracao >= 10)
         {
-            int fullHeart =
-                (
-                    i + 1
-                ) *
-                hpPorCoracao;
-
-            int halfHeart =
-                fullHeart - 5;
-
-            if (
-                currentHealth >=
-                fullHeart
-            )
-            {
-                HeartImage[i]
-                .sprite =
+            HeartImage[i].sprite =
                 FullHeart;
-            }
-
-            else if (
-                currentHealth >=
-                halfHeart
-            )
-            {
-                HeartImage[i]
-                .sprite =
+        }
+        else if (vidaDoCoracao >= 5)
+        {
+            HeartImage[i].sprite =
                 HalfHeart;
-            }
-
-            else
-            {
-                HeartImage[i]
-                .sprite =
+        }
+        else
+        {
+            HeartImage[i].sprite =
                 EmptyHeart;
-            }
         }
     }
+}
 }

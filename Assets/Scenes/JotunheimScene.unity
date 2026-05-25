@@ -37359,6 +37359,11 @@ Sprite:
   m_Bones: []
   m_ScriptableObjects: []
   m_SpriteID: 
+--- !u!1 &1565524868 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2262311738587312453, guid: 16af94973ae50e2448c82366920e0f76, type: 3}
+  m_PrefabInstance: {fileID: 2694481537176823337}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1570447907
 GameObject:
   m_ObjectHideFlags: 0
@@ -47909,13 +47914,73 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2262311738587312453, guid: 16af94973ae50e2448c82366920e0f76, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2694481537176823346}
+    - targetCorrespondingSourceObject: {fileID: 2262311738587312453, guid: 16af94973ae50e2448c82366920e0f76, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2694481537176823345}
   m_SourcePrefab: {fileID: 100100000, guid: 16af94973ae50e2448c82366920e0f76, type: 3}
 --- !u!4 &2694481537176823338 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4436080358027874976, guid: 16af94973ae50e2448c82366920e0f76, type: 3}
   m_PrefabInstance: {fileID: 2694481537176823337}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2694481537176823345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565524868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ee6750b873813f4cbc1a29d1ef3a5dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  npcName: Ratatoskr
+  lines:
+  - 'Ah... um guerreiro...
+
+'
+  - "Poucos atravessam Jotunheim,\nO frio est\xE1 estranho hoje."
+--- !u!58 &2694481537176823346
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565524868}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1001 &3240953069940308084
 PrefabInstance:
   m_ObjectHideFlags: 0

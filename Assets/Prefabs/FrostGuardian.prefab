@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 7029401765584725253}
   - component: {fileID: 7127929672696837466}
   m_Layer: 8
-  m_Name: frost_guardian_free 1
+  m_Name: FrostGuardian
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
