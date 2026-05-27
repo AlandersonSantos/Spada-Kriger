@@ -2,43 +2,36 @@ using UnityEngine;
 
 public class NPCDialogue : MonoBehaviour
 {
-    public string npcName;
-
-    [TextArea]
-    public string[] lines;
+    public DialogueLine[] dialogue;
 
     bool playerNear;
 
     void Update()
     {
-       if(
-        playerNear &&
-        Input.GetKeyDown(KeyCode.L) &&
-        !DialogueManager.instance.IsDialogueOpen() &&
-        !DialogueManager.instance.justClosed
+        if (
+            playerNear &&
+            Input.GetKeyDown(KeyCode.L) &&
+            !DialogueManager.instance.IsDialogueOpen() &&
+            !DialogueManager.instance.justClosed
         )
         {
-            DialogueManager.instance
-            .StartDialogue(
-                npcName,
-                lines
-            );
+            DialogueManager.instance.StartDialogue(dialogue);
         }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-            playerNear=true;
+            playerNear = true;
         }
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if(other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-            playerNear=false;
+            playerNear = false;
         }
     }
 }

@@ -6,10 +6,12 @@ public class DialogueManager : MonoBehaviour
     public static DialogueManager instance;
 
     public GameObject dialogueBox;
+
     public TMP_Text nameText;
     public TMP_Text dialogueText;
 
-    private string[] lines;
+    private DialogueLine[] lines;
+
     private int index;
 
     private bool canAdvance;
@@ -26,32 +28,36 @@ public class DialogueManager : MonoBehaviour
         return dialogueBox.activeSelf;
     }
 
-    public void StartDialogue(
-        string npcName,
-        string[] dialogueLines)
+    public void StartDialogue(DialogueLine[] dialogueLines)
+    {
+        dialogueBox.SetActive(true);
+
+        PlayerMovement player =
+        FindFirstObjectByType<PlayerMovement>();
+
+        if (player != null)
         {
-            dialogueBox.SetActive(true);
-
-            PlayerMovement player =
-            FindFirstObjectByType<PlayerMovement>();
-
-            if(player != null)
-            {
-                player.enabled = false;
-            }
-
-            nameText.text=npcName;
-
-            lines=dialogueLines;
-
-            index=0;
-
-            dialogueText.text=lines[index];
-
-            canAdvance=false;
-
-            Invoke(nameof(EnableAdvance),0.15f);
+            player.enabled = false;
         }
+
+        lines = dialogueLines;
+
+        index = 0;
+
+        ShowLine();
+
+        canAdvance = false;
+
+        Invoke(nameof(EnableAdvance), 0.15f);
+    }
+
+    void ShowLine()
+    {
+        nameText.text = lines[index].speaker;
+
+        dialogueText.text = lines[index].text;
+    }
+
     void EnableAdvance()
     {
         canAdvance = true;
@@ -59,7 +65,7 @@ public class DialogueManager : MonoBehaviour
 
     void Update()
     {
-        if(
+        if (
             dialogueBox.activeSelf &&
             canAdvance &&
             Input.GetKeyDown(KeyCode.L)
@@ -67,27 +73,32 @@ public class DialogueManager : MonoBehaviour
         {
             index++;
 
-            if(index < lines.Length)
+            if (index < lines.Length)
             {
-                dialogueText.text = lines[index];
+                ShowLine();
             }
-           else
-{
-            dialogueBox.SetActive(false);
-
-                PlayerMovement player =
-                FindFirstObjectByType<PlayerMovement>();
-
-                if(player != null)
-                {
-                    player.enabled = true;
-                }
-
-                justClosed = true;
-
-                Invoke(nameof(ResetCloseFlag),0.2f);
+            else
+            {
+                CloseDialogue();
             }
         }
+    }
+
+    void CloseDialogue()
+    {
+        dialogueBox.SetActive(false);
+
+        PlayerMovement player =
+        FindFirstObjectByType<PlayerMovement>();
+
+        if (player != null)
+        {
+            player.enabled = true;
+        }
+
+        justClosed = true;
+
+        Invoke(nameof(ResetCloseFlag), 0.2f);
     }
 
     void ResetCloseFlag()
