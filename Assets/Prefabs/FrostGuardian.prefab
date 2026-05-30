@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1255602550581701790}
   - component: {fileID: 7029401765584725253}
   - component: {fileID: 7127929672696837466}
+  - component: {fileID: 3249498686949920313}
   m_Layer: 8
   m_Name: FrostGuardian
   m_TagString: Untagged
@@ -209,6 +210,9 @@ MonoBehaviour:
   detectionRange: 20
   attackRange: 4
   attackCooldown: 2
+  somPassoBoss: {fileID: 0}
+  intervaloPassoBoss: 0.5
+  somAttackBoss: {fileID: 0}
 --- !u!114 &7029401765584725253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -242,3 +246,46 @@ MonoBehaviour:
   playerAnimator: {fileID: 0}
   attack1: KriggerAttack
   attack2: KriggerAttack2
+--- !u!114 &3249498686949920313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4344641043546273281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ee6750b873813f4cbc1a29d1ef3a5dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  dialogue:
+  - speaker: 'Thrym '
+    text: "Ent\xE3o Finalmente estamos frente a frente... Senti o desespero dos meus
+      servos aumentar cada vez que se aproximava mais. "
+  - speaker: Kriger
+    text: "Voc\xEA \xE9 quem comanda este inferno congelado? O que um gigante de
+      Jotunheim faz trancafiado neste lugar?"
+  - speaker: Thrym
+    text: "Thor, O filho de Odin me jogou aqui. Eu costumava reinar em parte de Jotunheim,
+      infelizmente eu n\xE3o tinha for\xE7as para tomar todo o reino... "
+  - speaker: Thrym
+    text: "Midigard era uma alternativa, mas o deus do trov\xE3o me impediu e me
+      trancou nessa maldita torre para servir como obst\xE1culo nesse joguinho deles. "
+  - speaker: Kriger
+    text: "Voc\xEA fala como se fosse uma puni\xE7\xE3o, mas n\xE3o parece est\xE1
+      sofrendo aqui."
+  - speaker: 'Thrym '
+    text: "Ap\xF3s muito tempo eu assumi o controle do andar, n\xE3o \xE9 exatamente
+      o que eu queria, mas \xE9 como se eu controlasse uma extens\xE3o de jotunheim...
+      Onde sou o unico e absoluto rei. "
+  - speaker: Kriger
+    text: "Ent\xE3o \xE9 isso... J\xE1 que est\xE1 conformado com sua posi\xE7\xE3o
+      atual. Por que n\xE3o me deixa passar? N\xE3o vou intervir no seu reinado, "
+  - speaker: 'Thrym '
+    text: "Ing\xEAnuo da sua parte achar que seria t\xE3o simples assim..."
+  - speaker: 'Thrym '
+    text: "J\xE1 matou muito dos meus servos, e j\xE1 chegou muito al\xE9m do que
+      eu permito que cheguem no meu reino. "
+  - speaker: 'Thrym '
+    text: "Ent\xE3o se quisser subir essa maldita torre, seja l\xE1 por qual o motivo,
+      vai ter que derrotar o mais digno entre os gigantes de gelo. "

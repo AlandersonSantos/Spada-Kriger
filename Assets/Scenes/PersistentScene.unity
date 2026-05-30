@@ -1322,6 +1322,10 @@ PrefabInstance:
       propertyPath: m_Offset.x
       value: -0.0069406033
       objectReference: {fileID: 0}
+    - target: {fileID: 1608330016342380703, guid: 630d1c64dbfe2da4085c739d84e869bc, type: 3}
+      propertyPath: forcaPulo
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 2401512047211992325, guid: 630d1c64dbfe2da4085c739d84e869bc, type: 3}
       propertyPath: m_Layer
       value: 7

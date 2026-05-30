@@ -53133,10 +53133,10 @@ MonoBehaviour:
   - speaker: 'Kriger:'
     text: Onde... eu estou?
   - speaker: 'Ratatoskr:'
-    text: "Eu estava achando que o senhor n\xE3o iria aparecer. "
+    text: "J\xE1 estava achando que o senhor n\xE3o iria aparecer. "
   - speaker: 'Ratatoskr:'
-    text: "Estamos na Yggdrasil. Antes era \xE1rvore, agora uma torre criada para
-      entreter os deuses."
+    text: "Estamos na Yggdrasil. Antes \xE1rvore, agora uma torre criada para entreter
+      os deuses."
   - speaker: 'Kriger: '
     text: 'Eu me lembro dessa Torre... das historias que ouvi sobre prisioneiros
       sendo jogados aqui. '
@@ -53147,29 +53147,26 @@ MonoBehaviour:
     text: "N\xE3o consegue se lembar de como veio parar aqui n\xE9? Na verdade em
       seu estado atual eu duvido que se lembre ao menos de quem voc\xEA seja. "
   - speaker: 'Kriger:'
-    text: "est\xE1 certo... Mas eu me lembro que preciso subir a torre. "
+    text: "Tem raz\xE3o... Mas eu me lembro que preciso chegar ao topo. "
   - speaker: 'Ratatoskr:'
-    text: "Subir e a unica maneira de sair, uma vez dentro da torre s\xF3 \xE9 possivel
-      sair assim, passando pelos 9 andares e vencendo a prova\xE7\xE3o."
+    text: "Subir \xE9 a unica maneira de sair, uma vez dentro da torre s\xF3 \xE9
+      possivel escapar assim, passando pelos 9 andares e vencendo a prova\xE7\xE3o."
   - speaker: 'Ratatoskr:'
-    text: "Sabe, esssa torre \xE9 estranha, sequer aparenta ser um local fechado,
-      mas vai por mim se seguir pelo cminho errado vai da de cara com uma parede
+    text: "Sabe, esse lugar \xE9 estranho, sequer aparenta ser um local fechado,
+      mas vai por mim se seguir pelo caminho errado vai dar de cara com uma parede
       invis\xEDvel e facilmente se perder."
   - speaker: 'Ratatoskr:'
-    text: "Por isso eu estou aqui. Eu sou Ratatosk, mensageiro de Odin. Corro essa
-      torre de cima a baixo desde antes de sua bisav\xF3 nascer. Eu posso ir a qualquer
-      andar, a qualquer momento."
+    text: "Por isso estou aqui. Eu sou Ratatosk, mensageiro de Odin. Corro essa torre
+      de cima a baixo desde antes de sua bisav\xF3 nascer. Posso ir a qualquer andar,
+      a qualquer momento."
   - speaker: 'Ratatoskr:'
     text: " Os deuses me permitem. J\xE1 voc\xEA\u2026 s\xF3 sobe. N\xE3o desce.
-      N\xE3o volta. Segue frente ou morre. "
+      N\xE3o volta, ou segue frente ou morre. "
   - speaker: 'Ratatoskr:'
-    text: "Eu vou te guiar ate o topo da torre, por algum motivo Odin e os outros
+    text: "Eu vou te guiar at\xE9 o topo da torre, por algum motivo Odin e os outros
       veem grande potencial em voc\xEA amigo."
   - speaker: 'Kriger:'
-    text: "Ent\xE3o me mostre o caminho, preciso de algumas respostas. "
-  - speaker: 'Ratatoskr:'
-    text: " Os deuses me permitem. J\xE1 voc\xEA\u2026 s\xF3 sobe. N\xE3o desce.
-      N\xE3o volta. Segue frente ou morre. "
+    text: "Ent\xE3o me mostre o caminho... Preciso de algumas respostas. "
   - speaker: 'Ratatoskr:'
     text: "Nao sou seu guarda costas nem nada, siga em frente, quando precisar eu
       apare\xE7o para mais dicas. "
