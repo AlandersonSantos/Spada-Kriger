@@ -33,6 +33,22 @@ public class InimigoSimples : MonoBehaviour
 
     private bool estaMorto = false;
 
+    [Header("Dano do Player")]
+    public Animator playerAnimator;
+
+    public string ataque1 = "attack1";
+    public string ataque2 = "attack2";
+
+    public float danoRecebido = 1f;
+
+    private bool podeReceberDano = true;
+
+    [Header("Drop de Vida")]
+    [SerializeField] private GameObject hpDropPrefab;
+
+    [Range(0, 100)]
+    [SerializeField] private int chanceDropHP = 30;
+
     [Header("Dano por Contato")]
     [SerializeField] private float danoAoContato = 1f;
 
@@ -41,14 +57,10 @@ public class InimigoSimples : MonoBehaviour
     private void Awake()
     {
         rb =
-            GetComponent<
-                Rigidbody2D
-            >();
+            GetComponent<Rigidbody2D>();
 
         anim =
-            GetComponent<
-                Animator
-            >();
+            GetComponent<Animator>();
     }
 
     void Start()
@@ -60,8 +72,7 @@ public class InimigoSimples : MonoBehaviour
             pontoB;
 
         GameObject playerObj =
-            GameObject
-            .FindGameObjectWithTag(
+            GameObject.FindGameObjectWithTag(
                 "Player"
             );
 
@@ -73,10 +84,20 @@ public class InimigoSimples : MonoBehaviour
                 playerObj.transform;
 
             playerHealth =
-                playerObj
-                .GetComponent<
+                playerObj.GetComponent<
                     HealthSystem
                 >();
+
+            if (
+                playerAnimator ==
+                null
+            )
+            {
+                playerAnimator =
+                    playerObj.GetComponent<
+                        Animator
+                    >();
+            }
         }
     }
 
@@ -238,6 +259,11 @@ public class InimigoSimples : MonoBehaviour
 
         vidaAtual -= dano;
 
+        Debug.Log(
+            "Vida restante: "
+            + vidaAtual
+        );
+
         if (anim != null)
         {
             anim.SetTrigger(
@@ -254,26 +280,107 @@ public class InimigoSimples : MonoBehaviour
     }
 
     void Morrer()
+{
+    estaMorto = true;
+
+    if (
+        hpDropPrefab != null &&
+        Random.Range(0, 100) < chanceDropHP
+    )
     {
-        estaMorto = true;
+        Instantiate(
+            hpDropPrefab,
+            transform.position +
+            new Vector3(
+                0f,
+                1.5f,
+                0f
+            ),
+            Quaternion.identity
+        );
+    }
 
-        rb.linearVelocity =
-            Vector2.zero;
+    rb.linearVelocity =
+        Vector2.zero;
 
-        rb.bodyType =
-            RigidbodyType2D.Static;
+    rb.bodyType =
+        RigidbodyType2D.Static;
 
-        if (anim != null)
+    if (anim != null)
+    {
+        anim.SetTrigger(
+            "morreu"
+        );
+    }
+
+    Destroy(
+        gameObject,
+        2f
+    );
+}
+
+    private void OnTriggerStay2D(
+        Collider2D other
+    )
+    {
+        if (
+            estaMorto
+        )
+            return;
+
+        if (
+            !other.CompareTag(
+                "Player"
+            )
+        )
+            return;
+
+        if (
+            playerAnimator ==
+            null
+        )
+            return;
+
+        AnimatorStateInfo state =
+            playerAnimator
+            .GetCurrentAnimatorStateInfo(
+                0
+            );
+
+        bool atacando =
+            state.IsName(
+                ataque1
+            )
+            ||
+            state.IsName(
+                ataque2
+            );
+
+        if (
+            atacando &&
+            podeReceberDano
+        )
         {
-            anim.SetTrigger(
-                "morreu"
+            TomarDano(
+                danoRecebido
+            );
+
+            podeReceberDano =
+                false;
+
+            Invoke(
+                nameof(
+                    ResetarDano
+                ),
+                0.5f
             );
         }
+    }
 
-        Destroy(
-            gameObject,
-            2f
-        );
+    void ResetarDano()
+    {
+        podeReceberDano =
+            true;
     }
 
     private void OnCollisionEnter2D(
@@ -299,8 +406,7 @@ public class InimigoSimples : MonoBehaviour
                 {
                     PlayerMovement
                     playerScript =
-                    collision
-                    .gameObject
+                    collision.gameObject
                     .GetComponent<
                         PlayerMovement
                     >();
