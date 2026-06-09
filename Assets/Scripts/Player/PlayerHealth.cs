@@ -21,6 +21,10 @@ public class HealthSystem : MonoBehaviour
     // 50 HP / 5 corações
     private int hpPorCoracao = 10;
 
+    [Header("Áudio")]
+
+    [SerializeField] private AudioClip somHit;
+
     void Start()
     {
         currentHealth =
@@ -73,6 +77,11 @@ public class HealthSystem : MonoBehaviour
         int amount
     )
     {
+
+        if(amount < 0)
+        {
+            AudioManager.Instancia.PlayOneShotAudio(somHit);
+        }
         currentHealth +=
             amount;
 

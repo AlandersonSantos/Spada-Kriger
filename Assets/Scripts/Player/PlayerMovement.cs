@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] [Range(5, 20)] private float velocidadeCorrida = 10.0f;
 
     [Header("Configurações de Som corrida e andando")]
-    [SerializeField] private AudioClip somPasso;
+
     [SerializeField] private AudioClip somPassoCorrendo;
     [SerializeField] private float intervaloPasso = 0.5f;
     [SerializeField] private float intervaloPassoCorrendo = 0.2f;
@@ -39,6 +39,12 @@ public class PlayerMovement : MonoBehaviour
     private KeyCode ultimaTeclaPressionada;
     private bool estaCorrendo = false;
 
+    [Header("Sons dos biomas")]
+
+    [SerializeField] private AudioClip[] passosNeve;
+    [SerializeField] private AudioClip[] passosPedra;
+    [SerializeField] private AudioClip[] passosTijolo;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -50,7 +56,9 @@ public class PlayerMovement : MonoBehaviour
     {
         // 1. Input e Detecção de Chão
         movement = Input.GetAxisRaw("Horizontal");
-        estaNoChao = Physics2D.OverlapCircle(checadorChao.position, raioChecador, camadaChao);
+        Collider2D chaoAtual = Physics2D.OverlapCircle(checadorChao.position,raioChecador,camadaChao);
+
+        estaNoChao = chaoAtual != null;
 
         // 2. Atualização do Animator
         anim.SetBool("estaNoChao", estaNoChao);
@@ -76,9 +84,11 @@ public class PlayerMovement : MonoBehaviour
 
         if (timerPassos >= intervaloPasso)
         {
-        AudioManager.Instancia.PlayOneShotAudio(somPasso);
 
-        timerPassos = 0f;
+
+            TocarSomPasso(chaoAtual);
+
+            timerPassos = 0f;
         }
         }
         else
@@ -87,6 +97,50 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+
+
+    private void TocarSomPasso(Collider2D chaoAtual)
+{
+
+    if (chaoAtual == null)
+        return;
+
+
+    AudioClip somEscolhido = null;
+
+    if (chaoAtual.CompareTag("Neve"))
+    {
+        if (passosNeve.Length > 0)
+        {
+            somEscolhido = passosNeve[
+                Random.Range(0, passosNeve.Length)
+            ];
+        }
+    }
+    else if (chaoAtual.CompareTag("Pedras"))
+    {
+        if (passosPedra.Length > 0)
+        {
+            somEscolhido = passosPedra[
+                Random.Range(0, passosPedra.Length)
+            ];
+        }
+    }
+    else if (chaoAtual.CompareTag("Tijolos"))
+    {
+        if (passosTijolo.Length > 0)
+        {
+            somEscolhido = passosTijolo[
+                Random.Range(0, passosTijolo.Length)
+            ];
+        }
+    }
+
+    if (somEscolhido != null)
+    {
+        AudioManager.Instancia.PlayOneShotAudio(somEscolhido);
+    }
+}
     void FixedUpdate()
     {
         // Criamos um Vector2 para a velocidade desejada

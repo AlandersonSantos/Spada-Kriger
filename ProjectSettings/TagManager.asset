@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - PlayerAttack
+  - Neve
+  - Pedras
+  - Tijolos
   layers:
   - Default
   - TransparentFX
