@@ -1,0 +1,335 @@
+fileFormatVersion: 2
+guid: 3ce72e4ff04beb446b3f1102ad54055f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6378153052465323197
+    second: Botoes1_0
+  - first:
+      213: 2889900417174105704
+    second: Botoes1_1
+  - first:
+      213: -4469006988258336690
+    second: Botoes1_2
+  - first:
+      213: -5966604925240132854
+    second: Botoes1_3
+  - first:
+      213: -5936816655980502459
+    second: Botoes1_4
+  - first:
+      213: 1476748445088719219
+    second: Botoes1_5
+  - first:
+      213: -3078383923642030985
+    second: Botoes1_6
+  - first:
+      213: -2685074430661743692
+    second: Botoes1_7
+  - first:
+      213: -7064730820043029798
+    second: Botoes1_8
+  - first:
+      213: -6428583385043065578
+    second: Botoes1_9
+  - first:
+      213: 7248483583954519757
+    second: Botoes1_10
+  - first:
+      213: 8042935149983217071
+    second: Botoes1_11
+  - first:
+      213: -3705982037928278590
+    second: Botoes1_12
+  - first:
+      213: 4074119552468524766
+    second: Botoes1_13
+  - first:
+      213: -2714873658247257020
+    second: Botoes1_14
+  - first:
+      213: -1228430719320465483
+    second: Botoes1_15
+  - first:
+      213: -2193606210944058226
+    second: Botoes1_16
+  - first:
+      213: -1183066217840309818
+    second: Botoes1_17
+  - first:
+      213: 336200511434385422
+    second: Botoes1_18
+  - first:
+      213: -1646327434043610381
+    second: Botoes1_19
+  - first:
+      213: -1295104423150542613
+    second: Botoes1_20
+  - first:
+      213: 6567721870513751275
+    second: Botoes1_21
+  - first:
+      213: -8104399835673357400
+    second: Botoes1_22
+  - first:
+      213: -236069049092565019
+    second: Botoes1_23
+  - first:
+      213: -4992791298928962765
+    second: Botoes1_24
+  - first:
+      213: 4240768325790984166
+    second: Botoes1_25
+  - first:
+      213: 7334065055468531137
+    second: Botoes1_26
+  - first:
+      213: 3925934453533731387
+    second: Botoes1_27
+  - first:
+      213: -5675960375344238837
+    second: Botoes1_28
+  - first:
+      213: 8313383308057624192
+    second: Botoes1_29
+  - first:
+      213: -1210352382382775257
+    second: Botoes1_30
+  - first:
+      213: -6778150391119041225
+    second: Botoes1_31
+  - first:
+      213: 5640283994119421051
+    second: Botoes1_32
+  - first:
+      213: 8513026108216036314
+    second: Botoes1_33
+  - first:
+      213: 3231615638396683132
+    second: Botoes1_34
+  - first:
+      213: -6261201952804791450
+    second: Botoes1_35
+  - first:
+      213: 5168031272790811864
+    second: Botoes1_36
+  - first:
+      213: 1765708552033282479
+    second: Botoes1_37
+  - first:
+      213: -9120739128450906026
+    second: Botoes1_38
+  - first:
+      213: -5227017049662186045
+    second: Botoes1_39
+  - first:
+      213: -5565348016137468533
+    second: Botoes1_40
+  - first:
+      213: 84175107080510770
+    second: Botoes1_41
+  - first:
+      213: -3502121052725515660
+    second: Botoes1_42
+  - first:
+      213: -567864285693610906
+    second: Botoes1_43
+  - first:
+      213: 5546247872122149011
+    second: Botoes1_44
+  - first:
+      213: 4995943595415755886
+    second: Botoes1_45
+  - first:
+      213: 7470128774721263926
+    second: Botoes1_46
+  - first:
+      213: -4412488402956516305
+    second: Botoes1_47
+  - first:
+      213: -8269236482974131518
+    second: Botoes1_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Botoes1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 683
+        width: 1536
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3432bb8779f3c77a0800000000000000
+      internalID: -6378153052465323197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 342
+        width: 1536
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e6ae93e1dfa1820800000000000000
+      internalID: 2889900417174105704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes1_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 1536
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40af1e62d5eaf1c0800000000000000
+      internalID: -4469006988258336690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d72b2c92cf20b5144980b27925e094a8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":3.0},"gridSpriteSize":{"x":1536.0,"y":341.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Botoes1_0: -6378153052465323197
+      Botoes1_1: 2889900417174105704
+      Botoes1_2: -4469006988258336690
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
