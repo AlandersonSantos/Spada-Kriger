@@ -22,8 +22,13 @@ public class AudioManager : MonoBehaviour
 
     }
 
-    public void PlayMusic(AudioClip clip)
+        public void PlayMusic(AudioClip clip)
     {
+        if (clip == null)
+        {
+            Debug.LogWarning("AudioManager: Tentou tocar uma música, mas o AudioClip é nulo!");
+            return;
+        }
         musicSource.clip = clip;
         musicSource.loop = true;
         musicSource.Play();
@@ -31,12 +36,12 @@ public class AudioManager : MonoBehaviour
 
     public void PlayOneShotAudio(AudioClip clip)
     {
+        if (clip == null)
+        {
+            Debug.LogWarning("AudioManager: Tentou tocar um efeito sonoro, mas o AudioClip é nulo!");
+            return;
+        }
         efeitoSource.PlayOneShot(clip);
-    }
-
-     public void SetMusicVolume(float volume)
-    {
-        musicSource.volume = volume;
     }
 
     public float GetMusicVolume()
