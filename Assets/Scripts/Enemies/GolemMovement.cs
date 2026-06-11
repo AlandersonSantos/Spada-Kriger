@@ -54,6 +54,14 @@ public class InimigoSimples : MonoBehaviour
 
     [SerializeField] private float forcaArremesso = 8f;
 
+    [Header("Áudio passos")]
+    [SerializeField] private AudioClip somPassoEnemy;
+    private float timerPassosEnemy;
+    [SerializeField] private float intervaloPassoEnemy = 0.5f;
+
+    [Header("Áudio Attack")]
+    [SerializeField] private AudioClip somAttackEnemy;
+
     private void Awake()
     {
         rb =
@@ -178,6 +186,14 @@ public class InimigoSimples : MonoBehaviour
             );
         }
 
+        timerPassosEnemy += Time.deltaTime;
+        
+         if (timerPassosEnemy >= intervaloPassoEnemy)
+        {
+            AudioManager.Instancia.PlayOneShotAudio(somPassoEnemy);
+            timerPassosEnemy = 0f;
+        }
+
         if (
             Vector2.Distance(
                 transform.position,
@@ -218,6 +234,8 @@ public class InimigoSimples : MonoBehaviour
             anim.SetTrigger(
                 "atacar"
             );
+
+            AudioManager.Instancia.PlayOneShotAudio(somAttackEnemy);
         }
 
         if (
