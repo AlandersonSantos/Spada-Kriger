@@ -6,14 +6,6 @@ public class InimigoSimples : MonoBehaviour
     [SerializeField] private float vidaMaxima = 3;
     private float vidaAtual;
 
-    [Header("Configurações de Movimento")]
-    [SerializeField] private float velocidade = 2f;
-
-    public Transform pontoA;
-    public Transform pontoB;
-
-    private Transform destinoAtual;
-
     [Header("IA de Ataque")]
     [SerializeField] private float raioPercepcao = 3f;
 
@@ -54,10 +46,7 @@ public class InimigoSimples : MonoBehaviour
 
     [SerializeField] private float forcaArremesso = 8f;
 
-    [Header("Áudio passos")]
-    [SerializeField] private AudioClip somPassoEnemy;
-    private float timerPassosEnemy;
-    [SerializeField] private float intervaloPassoEnemy = 0.5f;
+    
 
     [Header("Áudio Attack")]
     [SerializeField] private AudioClip somAttackEnemy;
@@ -76,8 +65,7 @@ public class InimigoSimples : MonoBehaviour
         vidaAtual =
             vidaMaxima;
 
-        destinoAtual =
-            pontoB;
+
 
         GameObject playerObj =
             GameObject.FindGameObjectWithTag(
@@ -153,65 +141,9 @@ public class InimigoSimples : MonoBehaviour
                 }
             }
         }
-        else
-        {
-            Patrulhar();
-        }
-    }
-
-    void Patrulhar()
-    {
-        Vector2 direcao =
-            (
-                destinoAtual.position -
-                transform.position
-            ).normalized;
-
-        rb.linearVelocity =
-            new Vector2(
-                direcao.x *
-                velocidade,
-
-                rb.linearVelocity.y
-            );
-
-        if (anim != null)
-        {
-            anim.SetBool(
-                "estaCaminhando",
-
-                Mathf.Abs(
-                    rb.linearVelocity.x
-                ) > 0.1f
-            );
-        }
-
-        timerPassosEnemy += Time.deltaTime;
         
-         if (timerPassosEnemy >= intervaloPassoEnemy)
-        {
-            AudioManager.Instancia.PlayOneShotAudio(somPassoEnemy);
-            timerPassosEnemy = 0f;
-        }
 
-        if (
-            Vector2.Distance(
-                transform.position,
-                destinoAtual.position
-            ) < 0.5f
-        )
-        {
-            destinoAtual =
-                (
-                    destinoAtual ==
-                    pontoA
-                )
-                ? pontoB
-                : pontoA;
-
-            Flip();
-        }
-    }
+   
 
     void AtacarPlayer()
 {
@@ -247,6 +179,7 @@ public class InimigoSimples : MonoBehaviour
         }
     }
 }
+}
 
     public void AplicarDano()
 {
@@ -272,16 +205,7 @@ public class InimigoSimples : MonoBehaviour
     }
 }
 
-    void Flip()
-    {
-        Vector3 escala =
-            transform.localScale;
-
-        escala.x *= -1;
-
-        transform.localScale =
-            escala;
-    }
+    
 
     public void TomarDano(
         float dano
