@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 4084853}
   m_Layer: 6
   m_Name: blocos rochosos
-  m_TagString: Untagged
+  m_TagString: Pedras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2367,7 +2367,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3d0c9c26cfe9324ea255a9fc2c2f9ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ParallaxEffect
-  cam: {fileID: 519420028}
   parallaxFactor: 0
 --- !u!1 &71550764
 GameObject:
@@ -3294,7 +3293,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3d0c9c26cfe9324ea255a9fc2c2f9ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ParallaxEffect
-  cam: {fileID: 519420028}
   parallaxFactor: 0.7
 --- !u!212 &279214445
 SpriteRenderer:
@@ -10388,7 +10386,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3d0c9c26cfe9324ea255a9fc2c2f9ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ParallaxEffect
-  cam: {fileID: 519420028}
   parallaxFactor: 0.5
 --- !u!1 &564283105
 GameObject:
@@ -10764,7 +10761,7 @@ GameObject:
   - component: {fileID: 588635148}
   m_Layer: 0
   m_Name: parede_calabouco
-  m_TagString: Untagged
+  m_TagString: Tijolos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25222,7 +25219,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3d0c9c26cfe9324ea255a9fc2c2f9ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ParallaxEffect
-  cam: {fileID: 519420028}
   parallaxFactor: 0.2
 --- !u!1 &886478599
 GameObject:
@@ -26063,7 +26059,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3d0c9c26cfe9324ea255a9fc2c2f9ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ParallaxEffect
-  cam: {fileID: 519420028}
   parallaxFactor: 0
 --- !u!1 &1149386295
 GameObject:
@@ -26155,7 +26150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3d0c9c26cfe9324ea255a9fc2c2f9ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ParallaxEffect
-  cam: {fileID: 519420028}
   parallaxFactor: 0.5
 --- !u!212 &1178548807
 SpriteRenderer:
@@ -26253,6 +26247,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   velocidadeCaminhada: 2.5
   velocidadeCorrida: 5.5
+  somPassoCorrendo: {fileID: 0}
+  intervaloPasso: 0.5
+  intervaloPassoCorrendo: 0.2
+  somPulo: {fileID: 0}
   forcaPulo: 12
   checadorChao: {fileID: 1812054440}
   camadaChao:
@@ -26260,6 +26258,9 @@ MonoBehaviour:
     m_Bits: 64
   raioChecador: 0.5
   intervaloCliqueDuplo: 0.25
+  passosNeve: []
+  passosPedra: []
+  passosTijolo: []
 --- !u!50 &1253546302
 Rigidbody2D:
   serializedVersion: 5
@@ -26451,6 +26452,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   janelaCombo: 0.7
+  somAtaque: {fileID: 0}
 --- !u!114 &1253546309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26465,10 +26467,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   currentHealth: 0
   maxHealth: 100
+  tempoInvulnerabilidade: 0.5
   HeartImage: []
   FullHeart: {fileID: 0}
   HalfHeart: {fileID: 0}
   EmptyHeart: {fileID: 0}
+  somHit: {fileID: 0}
 --- !u!1 &1259039668
 GameObject:
   m_ObjectHideFlags: 0
@@ -38936,7 +38940,7 @@ GameObject:
   - component: {fileID: 1570447912}
   m_Layer: 6
   m_Name: Neve
-  m_TagString: Untagged
+  m_TagString: Neve
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52420,6 +52424,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthSystem
   currentHealth: 0
   maxHealth: 10
+  tempoInvulnerabilidade: 0.5
   HeartImage:
   - {fileID: 427450711}
   - {fileID: 429171665}
@@ -52429,6 +52434,7 @@ MonoBehaviour:
   FullHeart: {fileID: 21300000, guid: c868a81691f78eb4e8bd7d3a3982533e, type: 3}
   HalfHeart: {fileID: 21300000, guid: 0040924090a7d964891ec8716a5966ff, type: 3}
   EmptyHeart: {fileID: 21300000, guid: ecafc883dfcf120498f1e3823efef8cd, type: 3}
+  somHit: {fileID: 0}
 --- !u!213 &1661563881
 Sprite:
   m_ObjectHideFlags: 0
@@ -53382,8 +53388,18 @@ MonoBehaviour:
   pontoB: {fileID: 564283106}
   raioPercepcao: 3
   cooldownAtaque: 2
+  danoAtaque: 2
+  playerAnimator: {fileID: 0}
+  ataque1: attack1
+  ataque2: attack2
+  danoRecebido: 1
+  hpDropPrefab: {fileID: 0}
+  chanceDropHP: 30
   danoAoContato: 1
   forcaArremesso: 10
+  somPassoEnemy: {fileID: 0}
+  intervaloPassoEnemy: 0.5
+  somAttackEnemy: {fileID: 0}
 --- !u!70 &1810341552
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -54814,7 +54830,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3d0c9c26cfe9324ea255a9fc2c2f9ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ParallaxEffect
-  cam: {fileID: 519420028}
   parallaxFactor: 0.7
 --- !u!212 &2060371362
 SpriteRenderer:

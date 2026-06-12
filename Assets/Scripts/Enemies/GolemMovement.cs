@@ -214,46 +214,63 @@ public class InimigoSimples : MonoBehaviour
     }
 
     void AtacarPlayer()
+{
+    tempoUltimoAtaque =
+        Time.time;
+
+    rb.linearVelocity =
+        new Vector2(
+            0,
+            rb.linearVelocity.y
+        );
+
+    if (anim != null)
     {
-        tempoUltimoAtaque =
-            Time.time;
+        anim.SetBool(
+            "estaCaminhando",
+            false
+        );
 
-        rb.linearVelocity =
-            new Vector2(
-                0,
-                rb.linearVelocity.y
-            );
-
-        if (anim != null)
-        {
-            anim.SetBool(
-                "estaCaminhando",
-                false
-            );
-
-            anim.SetTrigger(
-                "atacar"
-            );
-
-            AudioManager.Instancia.PlayOneShotAudio(somAttackEnemy);
-        }
+        anim.SetTrigger(
+            "atacar"
+        );
 
         if (
-            playerHealth != null
+            AudioManager.Instancia != null &&
+            somAttackEnemy != null
         )
         {
-            playerHealth
+            AudioManager.Instancia
+                .PlayOneShotAudio(
+                    somAttackEnemy
+                );
+        }
+    }
+}
+
+    public void AplicarDano()
+{
+    if (
+        estaMorto
+    )
+        return;
+
+    if (
+        playerHealth != null
+    )
+    {
+        playerHealth
             .ChangeHealth(
                 -danoAtaque
             );
 
-            Debug.Log(
-                "Inimigo causou "
-                + danoAtaque +
-                " de dano"
-            );
-        }
+        Debug.Log(
+            "Inimigo causou "
+            + danoAtaque +
+            " de dano"
+        );
     }
+}
 
     void Flip()
     {
