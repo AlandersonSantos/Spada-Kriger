@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 4084853}
   m_Layer: 6
   m_Name: blocos rochosos
-  m_TagString: Untagged
+  m_TagString: Pedras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18713,7 +18713,7 @@ GameObject:
   - component: {fileID: 588635148}
   m_Layer: 0
   m_Name: parede_calabouco
-  m_TagString: Untagged
+  m_TagString: Tijolos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113000,7 +113000,7 @@ GameObject:
   - component: {fileID: 1570447912}
   m_Layer: 6
   m_Name: Neve
-  m_TagString: Untagged
+  m_TagString: Neve
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

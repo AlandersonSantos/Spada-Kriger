@@ -290,6 +290,14 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1255602550581701790, guid: f5aec41a22fc5974c94fb52e5663bd19, type: 3}
+      propertyPath: somPassoBoss
+      value: 
+      objectReference: {fileID: 8300000, guid: c4e1456afbd716a4982cf340a465db22, type: 3}
+    - target: {fileID: 1255602550581701790, guid: f5aec41a22fc5974c94fb52e5663bd19, type: 3}
+      propertyPath: somAttackBoss
+      value: 
+      objectReference: {fileID: 8300000, guid: dcdda240c00615043a4a4cf2506ff1ed, type: 3}
+    - target: {fileID: 1255602550581701790, guid: f5aec41a22fc5974c94fb52e5663bd19, type: 3}
       propertyPath: detectionRange
       value: 15
       objectReference: {fileID: 0}
@@ -781,6 +789,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 406102474430021116, guid: da45585ed57c4ad43b4352734a49fe79, type: 3}
+      propertyPath: somHit
+      value: 
+      objectReference: {fileID: 8300000, guid: ea449712c9c1b434b9d52b781457b578, type: 3}
+    - target: {fileID: 406102474430021116, guid: da45585ed57c4ad43b4352734a49fe79, type: 3}
       propertyPath: FullHeart
       value: 
       objectReference: {fileID: -3296372939809681263, guid: c868a81691f78eb4e8bd7d3a3982533e, type: 3}
@@ -824,10 +836,46 @@ PrefabInstance:
       propertyPath: 'HeartImage.Array.data[4]'
       value: 
       objectReference: {fileID: 886478601}
+    - target: {fileID: 3154228497275524938, guid: da45585ed57c4ad43b4352734a49fe79, type: 3}
+      propertyPath: somAtaque
+      value: 
+      objectReference: {fileID: 8300000, guid: 12cd2da4ced1516488c11fd08f7a99cf, type: 3}
     - target: {fileID: 3351096691714121555, guid: da45585ed57c4ad43b4352734a49fe79, type: 3}
       propertyPath: forcaPulo
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 3351096691714121555, guid: da45585ed57c4ad43b4352734a49fe79, type: 3}
+      propertyPath: passosNeve.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3351096691714121555, guid: da45585ed57c4ad43b4352734a49fe79, type: 3}
+      propertyPath: passosPedra.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3351096691714121555, guid: da45585ed57c4ad43b4352734a49fe79, type: 3}
+      propertyPath: passosTijolo.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3351096691714121555, guid: da45585ed57c4ad43b4352734a49fe79, type: 3}
+      propertyPath: 'passosNeve.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 37937657941a2874caf0edee6e356c0d, type: 3}
+    - target: {fileID: 3351096691714121555, guid: da45585ed57c4ad43b4352734a49fe79, type: 3}
+      propertyPath: 'passosPedra.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 0bc66974c41ff8c4fa15f46d21ad3548, type: 3}
+    - target: {fileID: 3351096691714121555, guid: da45585ed57c4ad43b4352734a49fe79, type: 3}
+      propertyPath: 'passosPedra.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 1a7741daba5446e46a40f8074aae75dc, type: 3}
+    - target: {fileID: 3351096691714121555, guid: da45585ed57c4ad43b4352734a49fe79, type: 3}
+      propertyPath: 'passosTijolo.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: d15f7338d693f0343843a6b9096d27f6, type: 3}
+    - target: {fileID: 3351096691714121555, guid: da45585ed57c4ad43b4352734a49fe79, type: 3}
+      propertyPath: 'passosTijolo.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: b995bc1775ea83b4b8f861763e9a1424, type: 3}
     - target: {fileID: 8349794550010536668, guid: da45585ed57c4ad43b4352734a49fe79, type: 3}
       propertyPath: m_Name
       value: Player
