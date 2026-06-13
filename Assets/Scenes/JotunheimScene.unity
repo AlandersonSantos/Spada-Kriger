@@ -2089,7 +2089,7 @@ GameObject:
   - component: {fileID: 135339763}
   m_Layer: 6
   m_Name: Ratatoskr_Objects
-  m_TagString: Untagged
+  m_TagString: Pedras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9141,7 +9141,7 @@ GameObject:
   - component: {fileID: 474800035}
   m_Layer: 6
   m_Name: Calabouco
-  m_TagString: Untagged
+  m_TagString: Tijolos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
